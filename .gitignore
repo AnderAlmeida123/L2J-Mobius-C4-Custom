@@ -1,0 +1,36 @@
+
+# Build
+/build/
+/dist/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
+log/
+logs/
+
+# Cache
+cache/
+*.cache
+
+# Backup
+backup/
+
+# Runtime
+*.l2j
+*.pid
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Java
+*.class
