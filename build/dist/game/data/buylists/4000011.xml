@@ -5,74 +5,60 @@
         <npc>30891</npc> <!-- Helmut -->
     </npcs>
 
-    <!-- HEAVY ARMORS -->
-
+    <item id="512" /> <!-- dark crystal helmet -->
     <item id="365" /> <!-- Dark Crystal Breastplate -->
     <item id="388" /> <!-- Dark Crystal Gaiters -->
     <item id="5765" /> <!-- Dark Crystal Gloves -->
     <item id="5777" /> <!-- dark crystal boots -->
-    <item id="512" /> <!-- dark crystal helmet -->
-
-    <item id="2382" /> <!-- Tallum Plate Armor -->
-    <item id="5768" /> <!-- Tallum Gloves -->
-    <item id="5780" /> <!-- tallum boots -->
-    <item id="547" /> <!-- tallum helm -->
-
-    <item id="374" /> <!-- Armor of Nightmare -->
-    <item id="5771" /> <!-- gloves of nightmare -->
-    <item id="5783" /> <!-- boots of nightmare -->
-    <item id="2418" /> <!-- helm of nightmare -->
-
-    <item id="2383" />	<!-- Majestic Plate Armor -->
-    <item id="5774" />	<!-- Majestic Gloves -->
-    <item id="5786" /> <!-- Majestic Boots	-->
-    <item id="2419" /> <!-- Majestic Circlet -->
-
-    <!-- LIGHT ARMORS -->
 
     <item id="2385" /> <!-- Dark Crystal Leather Armor -->
     <item id="2389" /> <!-- Dark Crystalline Leggings -->
     <item id="5766" /> <!-- Dark Crystal Gloves	Light -->
     <item id="5778" /> <!-- Dark Crystal Boots	Light -->
-    <item id="512" /> <!-- dark crystal helmet -->
+
+    <item id="2407" /> <!-- Dark Crystal Robe -->
+    <item id="5784" /> <!-- Dark Crystal Gloves	Robe	-->
+    <item id="5779" /> <!-- Dark Crystal Boots	Robe	-->
+
+    <item id="547" /> <!-- tallum helm -->
+    <item id="2382" /> <!-- Tallum Plate Armor -->
+    <item id="5768" /> <!-- Tallum Gloves -->
+    <item id="5780" /> <!-- tallum boots -->
 
     <item id="2393" /> <!-- Tallum Leather Armor -->
     <item id="5769" /> <!-- Tallum Gloves	-->
     <item id="5781" /> <!-- Tallum Boots	Light	-->
-    <item id="547" /> <!-- tallum helm -->
+
+    <item id="2400" /> <!-- Tallum Tunic -->
+    <item id="2405" /> <!-- Tallum Stockings -->
+    <item id="5770" /> <!-- Tallum Gloves -->
+    <item id="5782" /> <!-- Tallum Boots -->
+
+    <item id="2418" /> <!-- helm of nightmare -->
+    <item id="374" /> <!-- Armor of Nightmare -->
+    <item id="5771" /> <!-- gloves of nightmare -->
+    <item id="5783" /> <!-- boots of nightmare -->
 
     <item id="2394" /> <!-- Nightmarish Leather Armor -->
     <item id="5772" /> <!-- Gloves of Nightmare	-->
     <item id="5784" /> <!-- Boots of Nightmare -->
-    <item id="2418" /> <!-- Helm of Nightmare -->
-
-    <item id="2395" /> <!-- Majestic Leather Armor -->
-    <item id="5775" /> <!-- Majestic Gloves	Light	-->
-    <item id="5787" /> <!-- Majestic Boots	Light -->
-    <item id="2419" /> <!-- Majestic Circlet -->
-
-    <!-- ROBE ARMORS -->
-
-    <item id="2407" /> <!-- Dark Crystal Robe -->
-    <item id="5784" /> <!-- Dark Crystal Gloves	Robe	-->
-    <item id="5784" /> <!-- Dark Crystal Boots	Robe	-->
-    <item id="512" /> <!-- dark crystal helmet -->
-
-    <item id="5767" /> <!-- Tallum Tunic -->
-    <item id="2405" /> <!-- Tallum Stockings -->
-    <item id="5769" /> <!-- Tallum Gloves -->
-    <item id="5770" /> <!-- Tallum Boots -->
-    <item id="2405" /> <!-- Tallum Stockings -->
 
     <item id="2408" /> <!-- Robe of Nightmare -->
     <item id="5773" /> <!-- Gloves of Nightmare	-->
     <item id="5785" /> <!-- Boots of Nightmare -->
-    <item id="2418" /> <!-- Helm of Nightmare -->
+
+    <item id="2419" /> <!-- Majestic Circlet -->
+    <item id="2383" />	<!-- Majestic Plate Armor -->
+    <item id="5774" />	<!-- Majestic Gloves -->
+    <item id="5786" /> <!-- Majestic Boots	-->
+
+    <item id="2395" /> <!-- Majestic Leather Armor -->
+    <item id="5775" /> <!-- Majestic Gloves	Light	-->
+    <item id="5787" /> <!-- Majestic Boots	Light -->
 
     <item id="2409" /> <!-- Majestic Robe -->
     <item id="5776" /> <!-- Majestic Gloves	-->
     <item id="5788" /> <!-- Majestic Boots	-->
-    <item id="2419" /> <!-- Majestic Circlet -->
 
     <!-- SHIELDS -->
     <item id="2498" /> <!-- Shield of Nightmare-->

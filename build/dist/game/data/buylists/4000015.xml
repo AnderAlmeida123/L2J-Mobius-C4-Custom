@@ -2,7 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
     <npcs>
-        <npc>30893</npc> <!-- Payel -->
+        <npc>30839</npc> <!-- Payel -->
     </npcs>
     <item id="1466" /> <!-- Soulshot: grade A -->
     <item id="3951" /> <!-- Blessed Spiritshot: grade A -->

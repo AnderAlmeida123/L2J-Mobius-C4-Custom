@@ -2,7 +2,7 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
     <npcs>
-        <npc>30892</npc> <!-- Veronica -->
+        <npc>30841</npc> <!-- Veronica -->
     </npcs>
 
     <item id="924" /> <!-- Majestic Necklace  -->
