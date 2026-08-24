@@ -1,7 +1,34 @@
-
+# =========================
 # Build
-/build/
-/dist/
+# =========================
+/build/*
+
+# Liberar caminho até os arquivos customizados
+!/build/dist/
+!/build/dist/game/
+!/build/dist/game/data/
+
+# Ignorar tudo dentro de data
+/build/dist/game/data/*
+
+# =========================
+# Arquivos que queremos versionar
+# =========================
+
+!/build/dist/game/data/html/
+!/build/dist/game/data/html/**
+!/build/dist/game/data/html/merchant/
+!/build/dist/game/data/html/teleporter/
+
+!/build/dist/game/data/multisell/
+!/build/dist/game/data/multisell/**
+
+!/build/dist/game/data/stats/
+!/build/dist/game/data/stats/**
+
+!/build/dist/game/data/buylists/
+!/build/dist/game/data/buylists/**
+
 
 # Eclipse
 .classpath

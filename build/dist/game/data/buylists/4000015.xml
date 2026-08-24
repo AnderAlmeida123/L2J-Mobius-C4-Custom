@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <npcs>
+        <npc>30893</npc> <!-- Payel -->
+    </npcs>
+    <item id="1466" /> <!-- Soulshot: grade A -->
+    <item id="3951" /> <!-- Blessed Spiritshot: grade A -->
+    <item id="1344" /> <!-- FLECHAS GRAD A -->
+    <item id="736" /> <!-- Scroll of Escape -->
+    <item id="737" /> <!-- Scroll of Resurrection -->
+    <item id="1829" /> <!-- Scroll of Escape: Clan Hall -->
+    <item id="1830" /> <!-- Scroll of Escape: Castle -->
+    <item id="3031" /> <!-- Spirit Ore -->
+    <item id="1785" /> <!-- Soul Ore -->
+    <item id="5589" /> <!-- Energy Stone -->
+    <item id="2130" /> <!-- Gemstone D -->
+    <item id="2131" /> <!-- Gemstone C -->
+    <item id="2132" /> <!-- Gemstone B -->
+    <item id="4625" /> <!-- Dice (Heart) -->
+    <item id="4626" /> <!-- Dice (Spade) -->
+    <item id="4627" /> <!-- Dice (Clover) -->
+    <item id="728" /> <!-- Mana Potion -->
+    <item id="2508" /> <!-- cursed bone -->
+</list>

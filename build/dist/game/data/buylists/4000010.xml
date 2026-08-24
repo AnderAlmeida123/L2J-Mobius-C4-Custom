@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+	<npcs>
+		<npc>30890</npc> <!-- Helmut -->
+	</npcs>
+    <item id="2500" /> <!-- Dark Legion's Edge -->
+    <item id="81" /> <!-- Dragon Slayer -->
+    <item id="151" /> <!-- Sword of Miracles -->
+    <item id="150" /> <!-- elemental sword -->
+    <item id="80" /> <!-- tallum blade -->
+    <item id="305" /> <!-- tallum glaive -->
+    <item id="98" /> <!-- halberd -->
+    <item id="270" /> <!-- dragon grinder-->
+    <item id="269" /> <!-- blood tornado -->
+    <item id="236" /> <!-- soul separator-->
+    <item id="235" /> <!-- bloody orchid -->
+    <item id="289" /> <!-- soul bow -->
+	<item id="288" /> <!-- Carnage Bow -->
+	<item id="213" /> <!-- branch of the mother tree -->
+	<item id="164" /> <!-- elysian axe -->
+	<item id="2504" /> <!-- meteor shower -->
+	<item id="5233" /> <!-- Keshanberk*Keshanberk -->
+	<item id="5705" /> <!-- Keshanberk*Damascus -->
+	<item id="5706" /> <!-- branch of the mother tree -->
+</list>
