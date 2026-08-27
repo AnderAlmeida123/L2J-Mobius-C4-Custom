@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+
+    <npcs>
+        <npc>30178</npc> <!-- Helmut -->
+    </npcs>
+
+    <!-- ===================================================== -->
+    <!-- ZUBEI SET - HEAVY ARMOR -->
+    <!-- ===================================================== -->
+
+    <item id="503" />   <!-- Zubei's Helmet -->
+    <item id="357" />   <!-- Zubei's Breastplate -->
+    <item id="383" />   <!-- Zubei's Gaiters -->
+    <item id="5710" />  <!-- Zubei's Gauntlets - Heavy -->
+    <item id="5726" />  <!-- Zubei's Boots - Heavy -->
+
+
+    <!-- ===================================================== -->
+    <!-- ZUBEI SET - LIGHT ARMOR -->
+    <!-- ===================================================== -->
+
+    <item id="2384" />  <!-- Zubei's Leather Shirt -->
+    <item id="2388" />  <!-- Zubei's Leather Gaiters -->
+    <item id="503" />   <!-- Zubei's Helmet -->
+    <item id="5711" />  <!-- Zubei's Gauntlets - Light -->
+    <item id="5727" />  <!-- Zubei's Boots - Light -->
+
+
+    <!-- ===================================================== -->
+    <!-- ZUBEI SET - ROBE -->
+    <!-- ===================================================== -->
+
+    <item id="2397" />  <!-- Tunic of Zubei -->
+    <item id="2402" />  <!-- Stockings of Zubei -->
+    <item id="503" />   <!-- Zubei's Helmet -->
+    <item id="5712" />  <!-- Zubei's Gauntlets - Robe -->
+    <item id="5728" />  <!-- Zubei's Boots - Robe -->
+
+
+    <!-- ===================================================== -->
+    <!-- BLUE WOLF SET - HEAVY ARMOR -->
+    <!-- ===================================================== -->
+
+    <item id="2416" />  <!-- Blue Wolf Helmet -->
+    <item id="358" />   <!-- Blue Wolf Breastplate -->
+    <item id="2380" />  <!-- Blue Wolf Gaiters -->
+    <item id="5718" />  <!-- Blue Wolf Gloves - Heavy -->
+    <item id="5734" />  <!-- Blue Wolf Boots - Heavy -->
+
+
+    <!-- ===================================================== -->
+    <!-- BLUE WOLF SET - LIGHT ARMOR -->
+    <!-- ===================================================== -->
+
+    <item id="2391" />  <!-- Blue Wolf Leather Armor -->
+    <item id="2416" />  <!-- Blue Wolf Helmet -->
+    <item id="5719" />  <!-- Blue Wolf Gloves - Light -->
+    <item id="5735" />  <!-- Blue Wolf Boots - Light -->
+
+
+    <!-- ===================================================== -->
+    <!-- BLUE WOLF SET - ROBE -->
+    <!-- ===================================================== -->
+
+    <item id="2398" />  <!-- Blue Wolf Tunic -->
+    <item id="2403" />  <!-- Blue Wolf Stockings -->
+    <item id="2416" />  <!-- Blue Wolf Helmet -->
+    <item id="5720" />  <!-- Blue Wolf Gloves - Robe -->
+    <item id="5736" />  <!-- Blue Wolf Boots - Robe -->
+
+
+    <!-- ===================================================== -->
+    <!-- AVADON SET - HEAVY ARMOR -->
+    <!-- ===================================================== -->
+
+    <item id="2415" />  <!-- Avadon Circlet -->
+    <item id="2376" />  <!-- Avadon Breastplate -->
+    <item id="2379" />  <!-- Avadon Gaiters -->
+    <item id="5714" />  <!-- Avadon Gloves - Heavy -->
+    <item id="5730" />  <!-- Avadon Boots - Heavy -->
+
+
+    <!-- ===================================================== -->
+    <!-- AVADON SET - LIGHT ARMOR -->
+    <!-- ===================================================== -->
+
+    <item id="2390" />  <!-- Avadon Leather Armor -->
+    <item id="2415" />  <!-- Avadon Circlet -->
+    <item id="5715" />  <!-- Avadon Gloves - Light -->
+    <item id="5731" />  <!-- Avadon Boots - Light -->
+
+
+    <!-- ===================================================== -->
+    <!-- AVADON SET - ROBE -->
+    <!-- ===================================================== -->
+
+    <item id="2406" />  <!-- Avadon Robe -->
+    <item id="2415" />  <!-- Avadon Circlet -->
+    <item id="5716" />  <!-- Avadon Gloves - Robe -->
+    <item id="5732" />  <!-- Avadon Boots - Robe -->
+
+
+    <!-- ===================================================== -->
+    <!-- SHIELDS -->
+    <!-- ===================================================== -->
+
+    <item id="673" />   <!-- Avadon Shield -->
+
+</list>
