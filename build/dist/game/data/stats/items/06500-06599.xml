@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 	<item id="6500" type="EtcItem" name="Big blue treasure chest">
 		<!-- Double-click to see the change. -->
 		<set name="icon" val="icon.etc_treasure_box_i01" />
@@ -286,7 +287,8 @@
 		</skills>
 	</item>
 	<item id="6519" type="EtcItem" name="Green Colored Lure - Low Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to take the bait. This bait is preferred by fast moving fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to take the bait. This bait is preferred by fast moving fish. -->
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -299,7 +301,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6520" type="EtcItem" name="Green Colored Lure - Medium Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to take the bait. This bait is preferred by fast moving fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to take the bait. This bait is preferred by fast moving fish. -->
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -312,7 +315,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6521" type="EtcItem" name="Green Colored Lure - High Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to take the bait. This bait is preferred by fast moving fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to take the bait. This bait is preferred by fast moving fish. -->
 		<set name="icon" val="icon.etc_bait_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -325,7 +329,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6522" type="EtcItem" name="Purple Colored Lure - Low Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to take the bait. This bait is preferred by fat fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to take the bait. This bait is preferred by fat fish. -->
 		<set name="icon" val="icon.etc_bait_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -338,7 +343,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6523" type="EtcItem" name="Purple Colored Lure - Medium Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to take the bait. This bait is preferred by fat fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to take the bait. This bait is preferred by fat fish. -->
 		<set name="icon" val="icon.etc_bait_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -351,7 +357,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6524" type="EtcItem" name="Purple Colored Lure - High Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to take the bait. This bait is preferred by fat fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to take the bait. This bait is preferred by fat fish. -->
 		<set name="icon" val="icon.etc_bait_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -364,7 +371,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6525" type="EtcItem" name="Yellow Colored Lure - Low Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to bite the bait. This bait is preferred by ugly fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to bite the bait. This bait is preferred by ugly fish. -->
 		<set name="icon" val="icon.etc_bait_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -377,7 +385,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6526" type="EtcItem" name="Yellow Colored Lure - Medium Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to bite the bait. This bait is preferred by ugly fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to bite the bait. This bait is preferred by ugly fish. -->
 		<set name="icon" val="icon.etc_bait_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -390,7 +399,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6527" type="EtcItem" name="Yellow Colored Lure - High Grade">
-		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take for a fish to bite the bait. This bait is preferred by ugly fish. -->
+		<!-- A lure used for fishing. The higher the grade of the lure, the less time it will take
+		for a fish to bite the bait. This bait is preferred by ugly fish. -->
 		<set name="icon" val="icon.etc_bait_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="etcitem_type" val="LURE" />
@@ -416,7 +426,8 @@
 		<set name="is_oly_restricted" val="true" />
 	</item>
 	<item id="6529" type="Weapon" name="Baby Duck Rod">
-		<!-- Non-grade fishing rod. It can't launch a general attack. Consumes one non-grade Fishing Shot. -->
+		<!-- Non-grade fishing rod. It can't launch a general attack. Consumes one non-grade Fishing
+		Shot. -->
 		<set name="icon" val="icon.weapon_fishing_rod_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FISHINGROD" />
@@ -437,7 +448,8 @@
 		</stats>
 	</item>
 	<item id="6530" type="Weapon" name="Albatross Rod">
-		<!-- D-grade fishing rod. It can't launch a general attack. Consumes one D-grade Fishing Shot. -->
+		<!-- D-grade fishing rod. It can't launch a general attack. Consumes one D-grade Fishing
+		Shot. -->
 		<set name="icon" val="icon.weapon_fishing_rod_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FISHINGROD" />
@@ -459,7 +471,8 @@
 		</stats>
 	</item>
 	<item id="6531" type="Weapon" name="Pelican Rod">
-		<!-- C-grade fishing rod. It can't launch a general attack. Consumes one C-grade Fishing Shot. -->
+		<!-- C-grade fishing rod. It can't launch a general attack. Consumes one C-grade Fishing
+		Shot. -->
 		<set name="icon" val="icon.weapon_fishing_rod_i02" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FISHINGROD" />
@@ -481,7 +494,8 @@
 		</stats>
 	</item>
 	<item id="6532" type="Weapon" name="Kingfisher Rod">
-		<!-- B-grade fishing rod. It can't launch a general attack. Consumes one B-grade Fishing Shot. -->
+		<!-- B-grade fishing rod. It can't launch a general attack. Consumes one B-grade Fishing
+		Shot. -->
 		<set name="icon" val="icon.weapon_fishing_rod_i03" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FISHINGROD" />
@@ -503,7 +517,8 @@
 		</stats>
 	</item>
 	<item id="6533" type="Weapon" name="Cygnus Pole">
-		<!-- A-grade fishing rod. It can't launch a general attack. Consumes one A-grade Fishing Shot. -->
+		<!-- A-grade fishing rod. It can't launch a general attack. Consumes one A-grade Fishing
+		Shot. -->
 		<set name="icon" val="icon.weapon_fishing_rod_i04" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FISHINGROD" />
@@ -525,7 +540,8 @@
 		</stats>
 	</item>
 	<item id="6534" type="Weapon" name="Triton Pole">
-		<!-- S-grade fishing rod. It can't launch a general attack. Consumes one S-grade Fishing Shot. -->
+		<!-- S-grade fishing rod. It can't launch a general attack. Consumes one S-grade Fishing
+		Shot. -->
 		<set name="icon" val="icon.weapon_fishing_rod_i05" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="FISHINGROD" />
@@ -547,7 +563,8 @@
 		</stats>
 	</item>
 	<item id="6535" type="EtcItem" name="Fishing Shot: non-grade">
-		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the non-grade fishing rod. -->
+		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the
+		pumping or reeling skill is cast. Usable for the non-grade fishing rod. -->
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i00" />
 		<set name="default_action" val="FISHINGSHOT" />
 		<set name="immediate_effect" val="true" />
@@ -562,7 +579,8 @@
 		</skills>
 	</item>
 	<item id="6536" type="EtcItem" name="Fishing Shot: D-grade">
-		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the D-grade fishing rod. -->
+		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the
+		pumping or reeling skill is cast. Usable for the D-grade fishing rod. -->
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i01" />
 		<set name="default_action" val="FISHINGSHOT" />
 		<set name="immediate_effect" val="true" />
@@ -578,7 +596,8 @@
 		</skills>
 	</item>
 	<item id="6537" type="EtcItem" name="Fishing Shot: C-grade">
-		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the C-grade fishing rod. -->
+		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the
+		pumping or reeling skill is cast. Usable for the C-grade fishing rod. -->
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i02" />
 		<set name="default_action" val="FISHINGSHOT" />
 		<set name="immediate_effect" val="true" />
@@ -594,7 +613,8 @@
 		</skills>
 	</item>
 	<item id="6538" type="EtcItem" name="Fishing Shot: B-grade">
-		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the B-grade fishing rod. -->
+		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the
+		pumping or reeling skill is cast. Usable for the B-grade fishing rod. -->
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i03" />
 		<set name="default_action" val="FISHINGSHOT" />
 		<set name="immediate_effect" val="true" />
@@ -610,7 +630,8 @@
 		</skills>
 	</item>
 	<item id="6539" type="EtcItem" name="Fishing Shot: A-grade">
-		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the A-grade fishing rod. -->
+		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the
+		pumping or reeling skill is cast. Usable for the A-grade fishing rod. -->
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i04" />
 		<set name="default_action" val="FISHINGSHOT" />
 		<set name="immediate_effect" val="true" />
@@ -626,7 +647,8 @@
 		</skills>
 	</item>
 	<item id="6540" type="EtcItem" name="Fishing Shot: S-grade">
-		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the S-grade fishing rod. -->
+		<!-- Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the
+		pumping or reeling skill is cast. Usable for the S-grade fishing rod. -->
 		<set name="icon" val="icon.etc_spirit_bullet_fish_i05" />
 		<set name="default_action" val="FISHINGSHOT" />
 		<set name="immediate_effect" val="true" />
@@ -866,7 +888,11 @@
 		<set name="is_stackable" val="true" />
 	</item>
 	<item id="6569" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade A)">
-		<!-- Increases the P.Atk of an A grade weapons such as sword/one-handed, blunt/one handed, dagger, spear and etc. type by 4. The P.Atk of sword/two-handed, blunt/two-handed, dual swords, and fists type will increase by 5 and bow type by 8. The M.Atk of all weapons will increase by 3. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
+		<!-- Increases the P.Atk of an A grade weapons such as sword/one-handed, blunt/one handed,
+		dagger, spear and etc. type by 4. The P.Atk of sword/two-handed, blunt/two-handed, dual
+		swords, and fists type will increase by 5 and bow type by 8. The M.Atk of all weapons will
+		increase by 3. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When
+		fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
@@ -882,7 +908,10 @@
 		</skills>
 	</item>
 	<item id="6570" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade A)">
-		<!-- Increases the P. Def. of A Grade armor or accessories by 1, and from +4, the P. Def will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely enchanted up to +4. If one's attempt for enchanting fails, an item will not become crystallized. However, the current enchant value will be set to 0. -->
+		<!-- Increases the P. Def. of A Grade armor or accessories by 1, and from +4, the P. Def
+		will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely
+		enchanted up to +4. If one's attempt for enchanting fails, an item will not become
+		crystallized. However, the current enchant value will be set to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
@@ -898,7 +927,11 @@
 		</skills>
 	</item>
 	<item id="6571" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade B)">
-		<!-- Increases the P.Atk of a B grade weapons such as sword/one-handed, blunt/one handed, dagger, spear and etc. type by 3. The P.Atk of sword/two-handed, blunt/two-handed, dual swords, and fists type will increase by 4 and bow type by 6. The M.Atk of all weapons will increase by 3. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
+		<!-- Increases the P.Atk of a B grade weapons such as sword/one-handed, blunt/one handed,
+		dagger, spear and etc. type by 3. The P.Atk of sword/two-handed, blunt/two-handed, dual
+		swords, and fists type will increase by 4 and bow type by 6. The M.Atk of all weapons will
+		increase by 3. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When
+		fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
@@ -914,7 +947,10 @@
 		</skills>
 	</item>
 	<item id="6572" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade B)">
-		<!-- Increases the P. Def. of B Grade armor or accessories by 1, and from +4, the P. Def will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely enchanted up to +4. If one's attempt for enchanting fails, an item will not become crystallized. However, the current enchant value will be set to 0. -->
+		<!-- Increases the P. Def. of B Grade armor or accessories by 1, and from +4, the P. Def
+		will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely
+		enchanted up to +4. If one's attempt for enchanting fails, an item will not become
+		crystallized. However, the current enchant value will be set to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
@@ -930,7 +966,11 @@
 		</skills>
 	</item>
 	<item id="6573" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade C)">
-		<!-- Increases the P.Atk of a C grade weapons such as sword/one-handed, blunt/one handed, dagger, spear and etc. type by 3. The P.Atk of sword/two-handed, blunt/two-handed, dual swords, and fists type will increase by 4 and bow type by 6. The M.Atk of all weapons will increase by 3. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
+		<!-- Increases the P.Atk of a C grade weapons such as sword/one-handed, blunt/one handed,
+		dagger, spear and etc. type by 3. The P.Atk of sword/two-handed, blunt/two-handed, dual
+		swords, and fists type will increase by 4 and bow type by 6. The M.Atk of all weapons will
+		increase by 3. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When
+		fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
@@ -946,7 +986,10 @@
 		</skills>
 	</item>
 	<item id="6574" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade C)">
-		<!-- Increases the P. Def. of C Grade armor or accessories by 1, and from +4, the P. Def will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely enchanted up to +4. If one's attempt for enchanting fails, an item will not become crystallized. However, the current enchant value will be set to 0. -->
+		<!-- Increases the P. Def. of C Grade armor or accessories by 1, and from +4, the P. Def
+		will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely
+		enchanted up to +4. If one's attempt for enchanting fails, an item will not become
+		crystallized. However, the current enchant value will be set to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
@@ -962,7 +1005,11 @@
 		</skills>
 	</item>
 	<item id="6575" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade D)">
-		<!-- Increases the P.Atk of a D grade weapons such as sword/one-handed, blunt/one handed, dagger, spear, sword/two-handed, blunt/two-handed, dual swords, and fists, etc. type will increase by 2 and bow type by 4. The M.Atk of all weapons will increase by 2. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
+		<!-- Increases the P.Atk of a D grade weapons such as sword/one-handed, blunt/one handed,
+		dagger, spear, sword/two-handed, blunt/two-handed, dual swords, and fists, etc. type will
+		increase by 2 and bow type by 4. The M.Atk of all weapons will increase by 2. From +4, the
+		added bonuses for P.Atk/M.Atk are double the above value. When fail on enchanting, item does
+		not get crystallized but it's enchant value will return to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
@@ -978,7 +1025,10 @@
 		</skills>
 	</item>
 	<item id="6576" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade D)">
-		<!-- Increases the P. Def. of D Grade armor or accessories by 1, and from +4, the P. Def will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely enchanted up to +4. If one's attempt for enchanting fails, an item will not become crystallized. However, the current enchant value will be set to 0. -->
+		<!-- Increases the P. Def. of D Grade armor or accessories by 1, and from +4, the P. Def
+		will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely
+		enchanted up to +4. If one's attempt for enchanting fails, an item will not become
+		crystallized. However, the current enchant value will be set to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
@@ -994,7 +1044,11 @@
 		</skills>
 	</item>
 	<item id="6577" type="EtcItem" name="Blessed Scroll: Enchant Weapon (Grade S)">
-		<!-- Increases the P.Atk of a S grade weapons such as sword/one-handed, blunt/one handed, dagger, spear and etc. type by 5. The P.Atk of sword/two-handed, blunt/two-handed, dual swords, and fists type will increase by 6 and bow type by 10. The M.Atk of all weapons will increase by 4. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
+		<!-- Increases the P.Atk of a S grade weapons such as sword/one-handed, blunt/one handed,
+		dagger, spear and etc. type by 5. The P.Atk of sword/two-handed, blunt/two-handed, dual
+		swords, and fists type will increase by 6 and bow type by 10. The M.Atk of all weapons will
+		increase by 4. From +4, the added bonuses for P.Atk/M.Atk are double the above value. When
+		fail on enchanting, item does not get crystallized but it's enchant value will return to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_WP" />
@@ -1010,7 +1064,10 @@
 		</skills>
 	</item>
 	<item id="6578" type="EtcItem" name="Blessed Scroll: Enchant Armor (Grade S)">
-		<!-- Increases the P. Def. of S Grade armor or accessories by 1, and from +4, the P. Def will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely enchanted up to +4. If one's attempt for enchanting fails, an item will not become crystallized. However, the current enchant value will be set to 0. -->
+		<!-- Increases the P. Def. of S Grade armor or accessories by 1, and from +4, the P. Def
+		will increase by 3. It can be safely enchanted up to +3. One-piece type armor can be safely
+		enchanted up to +4. If one's attempt for enchanting fails, an item will not become
+		crystallized. However, the current enchant value will be set to 0. -->
 		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
 		<set name="default_action" val="SKILL_REDUCE" />
 		<set name="etcitem_type" val="BLESS_SCRL_ENCHANT_AM" />
@@ -1054,7 +1111,9 @@
 		</stats>
 	</item>
 	<item id="6580" type="Weapon" name="Tallum Blade*Dark Legion's Edge">
-		<!-- P.Atk of dual swords will increase more than one-handed type weapon when enchanted. MaxHP +15%, MaxMP +20%, MaxCP +30% when enchanted by 4 or more. Also enhances damage to target during PvP. -->
+		<!-- P.Atk of dual swords will increase more than one-handed type weapon when enchanted.
+		MaxHP +15%, MaxMP +20%, MaxCP +30% when enchanted by 4 or more. Also enhances damage to
+		target during PvP. -->
 		<set name="icon" val="icon.weapon_dual_sword_i00" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DUAL" />
@@ -1323,7 +1382,8 @@
 		</skills>
 	</item>
 	<item id="6589" type="Weapon" name="Imperial Staff">
-		<!-- Casts Dryad Root magic upon the target with 20% chance of success when using bad magic. Also enhances damage to target during PvP. -->
+		<!-- Casts Dryad Root magic upon the target with 20% chance of success when using bad magic.
+		Also enhances damage to target during PvP. -->
 		<set name="icon" val="icon.weapon_imperial_staff_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
@@ -1351,11 +1411,13 @@
 		</stats>
 		<skills>
 			<skill id="3552" level="1" /> <!-- Special Ability: PvP Damage -->
-			<skill id="3577" level="1" type_chance="20" type="ON_MAGIC_SKILL" /> <!-- Special Ability: Magic Hold -->
+			<skill id="3577" level="1" type_chance="20" type="ON_MAGIC_SKILL" /> <!-- Special
+			Ability: Magic Hold -->
 		</skills>
 	</item>
 	<item id="6590" type="Weapon" name="Angel Slayer">
-		<!-- Increases P.Atk by 265 when a critical attack occurs. Also enhances damage to target during PvP. -->
+		<!-- Increases P.Atk by 265 when a critical attack occurs. Also enhances damage to target
+		during PvP. -->
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -1385,7 +1447,8 @@
 		</skills>
 	</item>
 	<item id="6591" type="Weapon" name="Angel Slayer">
-		<!-- Restore 3% of melee damage inflicted on the enemy to oneself in HP. Also enhances damage to target during PvP. -->
+		<!-- Restore 3% of melee damage inflicted on the enemy to oneself in HP. Also enhances
+		damage to target during PvP. -->
 		<set name="icon" val="icon.weapon_angel_slayer_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="DAGGER" />
@@ -1472,7 +1535,7 @@
 			<stat type="pAtkRange">500</stat>
 		</stats>
 	</item>
-	<item id="6594" type="Weapon" name="Shining Bow">
+	<item id="6593" type="Weapon" name="Shining Bow - Cheap Shot">
 		<set name="icon" val="icon.weapon_shining_bow_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1490,6 +1553,7 @@
 		<set name="element_enabled" val="true" />
 		<set name="enchant_enabled" val="true" />
 		<set name="reuse_delay" val="820" />
+		<set name="reduced_mp_consume" val="26,1" />
 		<stats>
 			<stat type="pAtk">581</stat>
 			<stat type="mAtk">132</stat>
@@ -1499,8 +1563,11 @@
 			<stat type="randomDamage">5</stat>
 			<stat type="pAtkRange">500</stat>
 		</stats>
+		<skills>
+			<skill id="3552" level="1" />
+		</skills>
 	</item>
-	<item id="6595" type="Weapon" name="Shining Bow">
+	<item id="6594" type="Weapon" name="Shining Bow - Focus">
 		<set name="icon" val="icon.weapon_shining_bow_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BOW" />
@@ -1527,6 +1594,41 @@
 			<stat type="randomDamage">5</stat>
 			<stat type="pAtkRange">500</stat>
 		</stats>
+		<skills>
+			<skill id="3567" level="1" />
+		</skills>
+	</item>
+	<item id="6595" type="Weapon" name="Shining Bow - Critical Slow">
+		<set name="icon" val="icon.weapon_shining_bow_i01" />
+		<set name="default_action" val="EQUIP" />
+		<set name="weapon_type" val="BOW" />
+		<set name="bodypart" val="lrhand" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="2440" />
+		<set name="crystal_type" val="S" />
+		<set name="material" val="ADAMANTAITE" />
+		<set name="weight" val="1650" />
+		<set name="price" val="48800000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="11" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="true" />
+		<set name="reuse_delay" val="820" />
+		<stats>
+			<stat type="pAtk">581</stat>
+			<stat type="mAtk">132</stat>
+			<stat type="critRate">12</stat>
+			<stat type="accCombat">-3.75</stat>
+			<stat type="pAtkSpd">293</stat>
+			<stat type="randomDamage">5</stat>
+			<stat type="pAtkRange">500</stat>
+		</stats>
+		<skills>
+			<skill id="3552" level="1" />
+			<skill id="3574" level="1" type_chance="16" type="ON_CRITICAL_SKILL" />
+		</skills>
 	</item>
 	<item id="6596" type="Weapon" name="Dragon Hunter Axe">
 		<!-- Increases HP regeneration rate. Also enhances damage to target during PvP. -->
@@ -1589,7 +1691,8 @@
 		</skills>
 	</item>
 	<item id="6598" type="Weapon" name="Dragon Hunter Axe">
-		<!-- Restore 3% of melee damage inflicted on the enemy to oneself in HP. Also enhances damage to target during PvP. -->
+		<!-- Restore 3% of melee damage inflicted on the enemy to oneself in HP. Also enhances
+		damage to target during PvP. -->
 		<set name="icon" val="icon.weapon_dragon_hunter_axe_i01" />
 		<set name="default_action" val="EQUIP" />
 		<set name="weapon_type" val="BLUNT" />
