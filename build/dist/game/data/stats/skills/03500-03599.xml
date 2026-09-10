@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
 	<skill id="3500" levels="1" name="Wooden Set">
 		<!-- Increases P. Def. and Maximum HP. -->
 		<icon>icon.skill0233</icon>
@@ -151,7 +152,8 @@
 		<magicLevel>1</magicLevel>
 		<effects>
 			<effect name="Buff">
-				<add stat="weightPenalty">5795</add> <!-- Point at which a weight penalty is applied +5795 -->
+				<add stat="weightPenalty">5795</add> <!-- Point at which a weight penalty is applied
+				+5795 -->
 			</effect>
 		</effects>
 	</skill>
@@ -262,7 +264,8 @@
 		<effects>
 			<effect name="Buff">
 				<mul stat="mDef">1.0525</mul> <!-- M. Def. +5.25% -->
-				<add stat="weightPenalty">5795</add> <!-- Point at which a weight penalty is applied +5795 -->
+				<add stat="weightPenalty">5795</add> <!-- Point at which a weight penalty is applied
+				+5795 -->
 			</effect>
 		</effects>
 	</skill>
@@ -332,7 +335,8 @@
 		</effects>
 	</skill>
 	<skill id="3527" levels="1" name="Doom Light Armor Set">
-		<!-- Increases resistance to poison attack, lung capacity, P. Atk. and MP recovery rate. STR-1, CON-2, DEX+3 -->
+		<!-- Increases resistance to poison attack, lung capacity, P. Atk. and MP recovery rate.
+		STR-1, CON-2, DEX+3 -->
 		<icon>icon.skill0233</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -376,7 +380,8 @@
 		</effects>
 	</skill>
 	<skill id="3530" levels="1" name="Dark Crystal Heavy Armor Set">
-		<!-- Increases resistance to paralysis attack and the effectiveness of HP recovery magic. STR-2, CON+2 -->
+		<!-- Increases resistance to paralysis attack and the effectiveness of HP recovery magic.
+		STR-2, CON+2 -->
 		<icon>icon.skill0231</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -391,7 +396,8 @@
 		</effects>
 	</skill>
 	<skill id="3531" levels="1" name="Tallum Heavy Armor Set">
-		<!-- Increases resistance to poison/bleeding attack. Atk. Spd. and weight capacity are also increased. STR+2, CON-2 -->
+		<!-- Increases resistance to poison/bleeding attack. Atk. Spd. and weight capacity are also
+		increased. STR+2, CON-2 -->
 		<icon>icon.skill0231</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -399,7 +405,8 @@
 		<effects>
 			<effect name="Buff">
 				<mul stat="pAtkSpd">1.08</mul> <!-- Atk. Spd. +8% -->
-				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied +5759 -->
+				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied
+				+5759 -->
 			</effect>
 			<effect name="DefenceTrait">
 				<POISON>80</POISON>
@@ -408,7 +415,8 @@
 		</effects>
 	</skill>
 	<skill id="3532" levels="1" name="Dark Crystal Light Armor Set">
-		<!-- Increases resistance to paralysis attack. Atk. Spd. and P. Atk. are also increased. STR+1, CON-1 -->
+		<!-- Increases resistance to paralysis attack. Atk. Spd. and P. Atk. are also increased.
+		STR+1, CON-1 -->
 		<icon>icon.skill0233</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -424,7 +432,8 @@
 		</effects>
 	</skill>
 	<skill id="3533" levels="1" name="Tallum Light Armor Set">
-		<!-- Increases resistance to poison/bleeding attack. MP recovery rate and maximum MP are also increased. MEN+2, WIT-2 -->
+		<!-- Increases resistance to poison/bleeding attack. MP recovery rate and maximum MP are
+		also increased. MEN+2, WIT-2 -->
 		<icon>icon.skill0233</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -441,7 +450,8 @@
 		</effects>
 	</skill>
 	<skill id="3534" levels="1" name="Tallum Robe Set">
-		<!-- Increases resistance to poison/bleeding attack. Casting Spd. and M. Def. are also increased. INT-2, WIT+2 -->
+		<!-- Increases resistance to poison/bleeding attack. Casting Spd. and M. Def. are also
+		increased. INT-2, WIT+2 -->
 		<icon>icon.skill0234</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -458,7 +468,8 @@
 		</effects>
 	</skill>
 	<skill id="3535" levels="1" name="Dark Crystal Robe Set">
-		<!-- Decreases magic cancel rate and increases resistance to paralysis attack. P. Def., Casting Spd, and Speed are also increased. WIT+2, MEN-2 -->
+		<!-- Decreases magic cancel rate and increases resistance to paralysis attack. P. Def.,
+		Casting Spd, and Speed are also increased. WIT+2, MEN-2 -->
 		<icon>icon.skill0234</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -492,7 +503,8 @@
 		</effects>
 	</skill>
 	<skill id="3537" levels="1" name="Majestic Heavy Armor Set">
-		<!-- Increases resistance to shock attack. P. Atk. and Accuracy are also increased. STR+2. CON-2 -->
+		<!-- Increases resistance to shock attack. P. Atk. and Accuracy are also increased. STR+2.
+		CON-2 -->
 		<icon>icon.skill0231</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -508,7 +520,9 @@
 		</effects>
 	</skill>
 	<skill id="3538" levels="1" name="Nightmare Light Armor Set">
-		<!-- Increases resistance to Sleep/Hold attack and M. Def. Restores HP by using part of the damage inflicted upon the enemy, excluding damage caused by skill or remote attack. DEX+1, CON-1 -->
+		<!-- Increases resistance to Sleep/Hold attack and M. Def. Restores HP by using part of the
+		damage inflicted upon the enemy, excluding damage caused by skill or remote attack. DEX+1,
+		CON-1 -->
 		<icon>icon.skill0233</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -516,7 +530,8 @@
 		<effects>
 			<effect name="Buff">
 				<mul stat="mDef">1.04</mul> <!-- M. Def. +4% -->
-				<add stat="absorbDam">3</add> <!-- Restores 3% of melee damage inflicted on the enemy to oneself -->
+				<add stat="absorbDam">3</add> <!-- Restores 3% of melee damage inflicted on the enemy
+				to oneself -->
 			</effect>
 			<effect name="DefenceTrait">
 				<SLEEP>70</SLEEP>
@@ -525,7 +540,8 @@
 		</effects>
 	</skill>
 	<skill id="3539" levels="1" name="Majestic Light Armor Set">
-		<!-- Increases resistance to shock attack. P. Atk. by bow, maximum MP and weight capacity are also increased. DEX+1, CON-1 -->
+		<!-- Increases resistance to shock attack. P. Atk. by bow, maximum MP and weight capacity
+		are also increased. DEX+1, CON-1 -->
 		<icon>icon.skill0233</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -537,7 +553,8 @@
 					<using kind="BOW" />
 				</mul>
 				<add stat="maxMp">240</add> <!-- MP +240 -->
-				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied +5759 -->
+				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied
+				+5759 -->
 			</effect>
 			<effect name="DefenceTrait">
 				<SHOCK>50</SHOCK>
@@ -562,7 +579,8 @@
 		</effects>
 	</skill>
 	<skill id="3541" levels="1" name="Majestic Robe Set">
-		<!-- Increases resistance to shock attack. Maximum MP, Casting Spd. and MP recovery rate are also increased. MEN+1, INT-1 -->
+		<!-- Increases resistance to shock attack. Maximum MP, Casting Spd. and MP recovery rate are
+		also increased. MEN+1, INT-1 -->
 		<icon>icon.skill0234</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -689,7 +707,8 @@
 		</effects>
 	</skill>
 	<skill id="3551" levels="1" name="Equipped with Shield">
-		<!-- Returns damage inflicted by enemy back upon him. Not applied to damage inflicted by a skill or remote attack. -->
+		<!-- Returns damage inflicted by enemy back upon him. Not applied to damage inflicted by a
+		skill or remote attack. -->
 		<icon>icon.skill0091</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -702,7 +721,8 @@
 	</skill>
 	<skill id="3552" levels="2" name="Special Ability: PvP Damage">
 		<!-- Level 1: Increases damage inflicted during PvP. -->
-		<!-- Level 2: Launches an attack on multiple opponents. Inflicts additional damage during PvP. -->
+		<!-- Level 2: Launches an attack on multiple opponents. Inflicts additional damage during
+		PvP. -->
 		<table name="#atkCountMax">0 4</table>
 		<table name="#bonus">1.05 1.05</table>
 		<table name="#magicLevel">64 64</table>
@@ -760,12 +780,14 @@
 				<mul stat="pAtkSpd">1.04</mul> <!-- Attack Speed +4% -->
 				<mul stat="pAtk">1.04</mul> <!-- P. Atk +4% -->
 				<add stat="maxMp">289</add> <!-- Maximum MP +289 -->
-				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied +5759 -->
+				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied
+				+5759 -->
 			</effect>
 		</effects>
 	</skill>
 	<skill id="3556" levels="1" name="Major Arcana Robe Set">
-		<!-- Increases M.Atk, moving speed, max weight limit, and resistance to Shock attack. Decreases chance of magic casting being canceled. WIT+1, INT+1, MEN-2 -->
+		<!-- Increases M.Atk, moving speed, max weight limit, and resistance to Shock attack.
+		Decreases chance of magic casting being canceled. WIT+1, INT+1, MEN-2 -->
 		<icon>icon.skill0234</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -775,7 +797,8 @@
 				<mul stat="mAtk">1.17</mul> <!-- M. Atk +17% -->
 				<add stat="runSpd">7</add> <!-- Movement Speed +7 -->
 				<sub stat="cancel">50</sub> <!-- Casting Cancel Probability -50% -->
-				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied +5759 -->
+				<add stat="weightPenalty">5759</add> <!-- Point at which a weight penalty is applied
+				+5759 -->
 			</effect>
 			<effect name="DefenceTrait">
 				<SHOCK>50</SHOCK>
@@ -783,7 +806,9 @@
 		</effects>
 	</skill>
 	<skill id="3557" levels="1" name="Necklace of Valakas">
-		<!-- Increases MaxHP, P.Atk, M.Atk, Magic critical chance and decreases skill re-use time. Also increases resistance to fire/Sleep attack and reflects physical damage back upon the enemy, excluding damage from skill attack or range attack. -->
+		<!-- Increases MaxHP, P.Atk, M.Atk, Magic critical chance and decreases skill re-use time.
+		Also increases resistance to fire/Sleep attack and reflects physical damage back upon the
+		enemy, excluding damage from skill attack or range attack. -->
 		<icon>icon.accessory_necklace_of_valakas_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -808,7 +833,10 @@
 		</effects>
 	</skill>
 	<skill id="3558" levels="1" name="Earring of Antharas">
-		<!-- Increases the resistance to the attack by earth and Bleeding/Shock/Fear/Silence attack, and the effectiveness of HP recovery magic, decreases MP Consumption of the skill, and recovers its HP using damage inflicted upon the enemy. Excludes damage from skill or remote attack. -->
+		<!-- Increases the resistance to the attack by earth and Bleeding/Shock/Fear/Silence attack,
+		and the effectiveness of HP recovery magic, decreases MP Consumption of the skill, and
+		recovers its HP using damage inflicted upon the enemy. Excludes damage from skill or remote
+		attack. -->
 		<icon>icon.accessory_earring_of_antaras_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -834,7 +862,8 @@
 		</effects>
 	</skill>
 	<skill id="3559" levels="1" name="Earring of Zaken">
-		<!-- Increases healing from heal spells, resistance to Bleed/Shock/Fear/Silence attack and has Vampiric Rage effect. -->
+		<!-- Increases healing from heal spells, resistance to Bleed/Shock/Fear/Silence attack and
+		has Vampiric Rage effect. -->
 		<icon>icon.accessory_earring_of_zaken_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -875,7 +904,8 @@
 		</effects>
 	</skill>
 	<skill id="3561" levels="1" name="Ring of Baium">
-		<!-- Increases Accuracy, critical damage, Atk.Speed, Casting Spd. and resistance to Poison/Hold attack. -->
+		<!-- Increases Accuracy, critical damage, Atk.Speed, Casting Spd. and resistance to
+		Poison/Hold attack. -->
 		<icon>icon.accessory_ring_of_baium_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -997,7 +1027,8 @@
 		</effects>
 	</skill>
 	<skill id="3568" levels="1" name="Special Ability: HP Drain">
-		<!-- Partially restores HP using damage inflicted upon the enemy. Excludes damage from skill or range attack. Enhances damage to target during PvP. -->
+		<!-- Partially restores HP using damage inflicted upon the enemy. Excludes damage from skill
+		or range attack. Enhances damage to target during PvP. -->
 		<icon>icon.skill1268</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1169,7 +1200,10 @@
 		</effects>
 	</skill>
 	<skill id="3578" levels="1" name="Special Ability: Infinity Blade">
-		<!-- Increases MaxHP, MaxMP, MaxCP, shield defense power and reflects partial damage back upon the enemy. Excludes damage from skill or range attack. Possibility of casting de-buff that decreases P.Def of target on a critical attack. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxHP, MaxMP, MaxCP, shield defense power and reflects partial damage back
+		upon the enemy. Excludes damage from skill or range attack. Possibility of casting de-buff
+		that decreases P.Def of target on a critical attack. Also enhances damage to target during
+		PvP. -->
 		<icon>icon.weapon_the_sword_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1207,7 +1241,9 @@
 		</effects>
 	</skill>
 	<skill id="3580" levels="1" name="Special Ability: Infinity Axe">
-		<!-- Increase MaxHP, MaxMP, MaxCP shield block rate and reflects partial damage back upon the enemy. Excludes damage from skill or range attack. Possibility of casting Discord on a critical attack. Also enhances damage to target during PvP. -->
+		<!-- Increase MaxHP, MaxMP, MaxCP shield block rate and reflects partial damage back upon
+		the enemy. Excludes damage from skill or range attack. Possibility of casting Discord on a
+		critical attack. Also enhances damage to target during PvP. -->
 		<icon>icon.weapon_the_axe_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1237,7 +1273,8 @@
 		</effects>
 	</skill>
 	<skill id="3582" levels="1" name="Special Ability: Infinity Cleaver">
-		<!-- Increases MaxHP, MaxCP, critical power and critical chance. Possibility of reflecting the skill back upon the enemy. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxHP, MaxCP, critical power and critical chance. Possibility of reflecting
+		the skill back upon the enemy. Also enhances damage to target during PvP. -->
 		<icon>icon.weapon_the_two_handed_sword_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1257,7 +1294,8 @@
 		</effects>
 	</skill>
 	<skill id="3583" levels="1" name="Special Ability: Infinity Crusher">
-		<!-- Increase MaxHP, MaxCP, and Atk.Speed. Possibility of stunning the enemy on a critical attack and reflecting the de-buff upon the enemy. -->
+		<!-- Increase MaxHP, MaxCP, and Atk.Speed. Possibility of stunning the enemy on a critical
+		attack and reflecting the de-buff upon the enemy. -->
 		<icon>icon.weapon_the_hammer_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1296,7 +1334,9 @@
 		</effects>
 	</skill>
 	<skill id="3585" levels="1" name="Infinity Wing">
-		<!-- Increases MaxHP, MaxMP, MaxCP, and critical chance. Possibility of restraining physical skills on a critical attack and reflecting the de-buff back upon the enemy. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxHP, MaxMP, MaxCP, and critical chance. Possibility of restraining physical
+		skills on a critical attack and reflecting the de-buff back upon the enemy. Also enhances
+		damage to target during PvP. -->
 		<icon>icon.weapon_the_dualsword_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1336,7 +1376,8 @@
 		</effects>
 	</skill>
 	<skill id="3587" levels="1" name="Special Ability: Infinity Fang">
-		<!-- Increases MaxHP, MaxMP, MaxCP and evasion. Possibility of stunning a target on a critical attack and reflecting de-buffs. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxHP, MaxMP, MaxCP and evasion. Possibility of stunning a target on a
+		critical attack and reflecting de-buffs. Also enhances damage to target during PvP. -->
 		<icon>icon.weapon_the_fist_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1376,7 +1417,9 @@
 		</effects>
 	</skill>
 	<skill id="3589" levels="1" name="Special Ability: Infinity Stinger">
-		<!-- Increases MaxMP, MaxCP, Atk.Speed, MP regeneration rate, and the successs rate of dagger skills from the back of the target. Possibility of casting Silence on a critical attack and has Vampiric Rage effect. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxMP, MaxCP, Atk.Speed, MP regeneration rate, and the successs rate of
+		dagger skills from the back of the target. Possibility of casting Silence on a critical
+		attack and has Vampiric Rage effect. Also enhances damage to target during PvP. -->
 		<icon>icon.weapon_the_dagger_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1419,7 +1462,10 @@
 		</effects>
 	</skill>
 	<skill id="3591" levels="1" name="Special Ability: Infinity Spear">
-		<!-- Enables one to attack multiple opponents. During a critical attack, it removes the enemies' abnormal state at a certain rate of probability. Increases MaxHP, MaxCP, Atk.Spd., and Accuracy. Also enhances damage to target during PvP. Reflects negative effects of the abnormal state back to the enemy at a certain rate of probability. -->
+		<!-- Enables one to attack multiple opponents. During a critical attack, it removes the
+		enemies' abnormal state at a certain rate of probability. Increases MaxHP, MaxCP, Atk.Spd.,
+		and Accuracy. Also enhances damage to target during PvP. Reflects negative effects of the
+		abnormal state back to the enemy at a certain rate of probability. -->
 		<icon>icon.weapon_the_pole_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1452,7 +1498,8 @@
 		</effects>
 	</skill>
 	<skill id="3593" levels="1" name="Special Ability: Infinity Bow">
-		<!-- Increases MaxMP, MaxCP and decreases re-use delay of a bow. Possibility of casting Slow on a critical attack. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxMP, MaxCP and decreases re-use delay of a bow. Possibility of casting Slow
+		on a critical attack. Also enhances damage to target during PvP. -->
 		<icon>icon.weapon_the_bow_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1488,7 +1535,9 @@
 		</effects>
 	</skill>
 	<skill id="3595" levels="1" name="Special Ability: Infinity Scepter">
-		<!-- When using good magic, recovers HP by 100% with a certain rate, and increases the maximum MP, maximum CP, M. Atk., critical rate of the damage magic and damage to target during PvP. When casting, reduces MP Consumption and cancel rate. -->
+		<!-- When using good magic, recovers HP by 100% with a certain rate, and increases the
+		maximum MP, maximum CP, M. Atk., critical rate of the damage magic and damage to target
+		during PvP. When casting, reduces MP Consumption and cancel rate. -->
 		<icon>icon.weapon_the_staff_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>
@@ -1524,7 +1573,8 @@
 		</effects>
 	</skill>
 	<skill id="3597" levels="1" name="Special Ability: Infinity Rod">
-		<!-- Increases MaxMP, MaxCP, Casting Spd., and MP regeneration rate. Possible full HP recovery of target when using good magic. Also enhances damage to target during PvP. -->
+		<!-- Increases MaxMP, MaxCP, Casting Spd., and MP regeneration rate. Possible full HP
+		recovery of target when using good magic. Also enhances damage to target during PvP. -->
 		<icon>icon.weapon_the_mace_of_hero_i00</icon>
 		<operateType>P</operateType>
 		<targetType>SELF</targetType>

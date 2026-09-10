@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+    <skill id="9901" levels="1" name="Special Ability: Haste">
+        <!-- Increases Atk.Speed and enhances damage to target during PvP. -->
+        <icon>icon.skill1086</icon>
+        <operateType>P</operateType>
+        <targetType>SELF</targetType>
+        <magicLevel>75</magicLevel>
+        <effects>
+            <effect name="Buff">
+                <mul stat="pAtkSpd">1.07</mul>
+                <mul stat="pvpPhysDmg">1.05</mul>
+                <mul stat="pvpPhysSkillsDmg">1.05</mul>
+                <mul stat="pvpMagicalDmg">1.05</mul>
+            </effect>
+        </effects>
+    </skill>
+
+    <skill id="9902" levels="1" name="Special Ability: Focus">
+        <!-- Increases critical chance and enhances damage to target during PvP. -->
+        <icon>icon.skill1077</icon>
+        <operateType>P</operateType>
+        <targetType>SELF</targetType>
+        <magicLevel>75</magicLevel>
+        <effects>
+            <effect name="Buff">
+                <add stat="critRate">80.6</add>
+                <mul stat="pvpPhysDmg">1.05</mul>
+                <mul stat="pvpPhysSkillsDmg">1.05</mul>
+                <mul stat="pvpMagicalDmg">1.05</mul>
+            </effect>
+        </effects>
+    </skill>
+
+    <skill id="9903" levels="1" name="Special Ability: Empower">
+        <!-- Increases M. Atk. Enhances damage to target during PvP. -->
+        <icon>icon.skill1059</icon>
+        <operateType>P</operateType>
+        <targetType>SELF</targetType>
+        <magicLevel>75</magicLevel>
+        <effects>
+            <effect name="Buff">
+                <add stat="mAtk">60.09</add>
+                <mul stat="pvpPhysDmg">1.05</mul>
+                <mul stat="pvpPhysSkillsDmg">1.05</mul>
+                <mul stat="pvpMagicalDmg">1.05</mul>
+            </effect>
+        </effects>
+    </skill>
+
+    <skill id="9904" levels="5" name="Special Ability: Health">
+        <table name="#atkCountMax">0 4 0 4 0</table>
+        <table name="#magicLevel">1 1 64 64 70</table>
+        <table name="#pvpBonus">1 1 1.05 1.05 1.05</table>
+        <icon>icon.skill0211</icon>
+        <operateType>P</operateType>
+        <targetType>SELF</targetType>
+        <magicLevel>#magicLevel</magicLevel>
+        <effects>
+            <effect name="Buff">
+                <mul stat="maxHp">1.25</mul>
+                <add stat="atkCountMax">#atkCountMax</add>
+                <mul stat="pvpPhysDmg">#pvpBonus</mul>
+                <mul stat="pvpPhysSkillsDmg">#pvpBonus</mul>
+                <mul stat="pvpMagicalDmg">#pvpBonus</mul>
+            </effect>
+        </effects>
+    </skill>
+
+    <skill id="9905" levels="1" name="Special Ability: Crt. Stun">
+        <!-- Possibility of stunning a target on a critical attack. -->
+        <icon>icon.skill0100</icon>
+        <operateType>A2</operateType>
+        <targetType>ONE</targetType>
+        <abnormalLevel>1</abnormalLevel>
+        <abnormalTime>9</abnormalTime>
+        <abnormalType>STUN</abnormalType>
+        <abnormalVisualEffect>STUN</abnormalVisualEffect>
+        <activateRate>27</activateRate>
+        <basicProperty>CON</basicProperty>
+        <effectPoint>-100</effectPoint>
+        <isDebuff>true</isDebuff>
+        <lvlBonusRate>1</lvlBonusRate>
+        <magicLevel>75</magicLevel>
+        <trait>SHOCK</trait>
+        <effects>
+            <effect name="Stun" />
+        </effects>
+    </skill>
+
+    <skill id="9906" levels="3" name="Special Ability: Acumen">
+        <!-- Level 1: Increases Casting Spd. -->
+        <!-- Level 2: Increases Casting Spd. Increases damage inflicted during PvP. -->
+        <table name="#magicLevel">64 64 70</table>
+        <table name="#pvpBonus">1 1.05 1.05</table>
+        <icon>icon.skill1085</icon>
+        <operateType>P</operateType>
+        <targetType>SELF</targetType>
+        <magicLevel>#magicLevel</magicLevel>
+        <effects>
+            <effect name="Buff">
+                <mul stat="mAtkSpd">1.15</mul>
+                <mul stat="pvpPhysDmg">#pvpBonus</mul>
+                <mul stat="pvpPhysSkillsDmg">#pvpBonus</mul>
+                <mul stat="pvpMagicalDmg">#pvpBonus</mul>
+            </effect>
+        </effects>
+    </skill>
+
+</list>
