@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <item id="9901" price="0" /> <!-- Athena Blade -->
+    <item id="9902" price="0" /> <!-- Artemis Bow -->
+    <item id="9903" price="0" /> <!-- Aphrodite Sceptre -->
+    <item id="9904" price="0" /> <!-- Thor Hammer -->
+    <item id="9905" price="0" /> <!-- Odin Cleaver -->
+    <item id="9906" price="0" /> <!-- Ares Fang -->
+    <item id="9907" price="0" /> <!-- Zeus Mace -->
+    <item id="9908" price="0" /> <!-- Dual Athena Blade -->
+    <item id="9909" price="0" /> <!-- Hades Stinger -->
+    <item id="9910" price="0" /> <!-- Valkyrie Spear -->
+</list>    

@@ -186,52 +186,26 @@ public class DocumentItem extends DocumentBase implements IXmlReader
 				{
 					if ("stat".equals(b.getNodeName()))
 					{
-						final Stat type = Stat.valueOfXml(b.getAttributes().getNamedItem("type").getNodeValue());
+						final String statName = b.getAttributes().getNamedItem("type").getNodeValue();
+						final Stat type = Stat.valueOfXml(statName);
 						final double value = Double.parseDouble(b.getTextContent());
 						
-						switch (type)
+						final Node operationNode = b.getAttributes().getNamedItem("operation");
+						final String operation = (operationNode != null) ? operationNode.getNodeValue().toLowerCase() : "add";
+						
+						switch (operation)
 						{
-							case POWER_ATTACK:
-							case POWER_ATTACK_SPEED:
-							case POWER_ATTACK_RANGE:
-							case CRITICAL_RATE:
-							case MAGIC_ATTACK:
-							case SHIELD_DEFENCE:
-							case SHIELD_RATE:
+							case "add":
+							case "set":
+							case "mul":
 							{
-								_currentItem.item.attach(new FuncTemplate(null, null, "set", 0x00, type, value));
+								_currentItem.item.attach(new FuncTemplate(null, null, operation, 0x00, type, value));
 								break;
 							}
-							case ACCURACY_COMBAT:
-							case EVASION_RATE:
-							case RANDOM_DAMAGE:
-							case POWER_DEFENCE:
-							case MAGIC_DEFENCE:
-							case MAX_MP:
-							case FIRE_POWER:
-							case WATER_POWER:
-							case WIND_POWER:
-							case EARTH_POWER:
-							case HOLY_POWER:
-							case DARK_POWER:
-							case FIRE_RES:
-							case WATER_RES:
-							case WIND_RES:
-							case EARTH_RES:
-							case HOLY_RES:
-							case DARK_RES:
-							{
-								_currentItem.item.attach(new FuncTemplate(null, null, "add", 0x00, type, value));
-								break;
-							}
-							case MAGIC_SUCCESS_RES:
-							{
-								_currentItem.item.attach(new FuncTemplate(null, null, "mul", 0x00, type, value));
-								break;
-							}
+							
 							default:
 							{
-								LOGGER.warning("Unhandled stat type " + type);
+								LOGGER.warning("Unknown stat operation '" + operation + "' for stat " + type + " on item " + itemId);
 								break;
 							}
 						}

@@ -315,6 +315,10 @@ public class CreatureStat
 		
 		double val = calcStat(Stat.MAGIC_ATTACK_SPEED, _creature.getTemplate().getBaseMAtkSpd() * bonusSpdAtk);
 		
+		// if (_creature.isPlayer())
+		// {
+		// val *= 1.5;
+		// }
 		// if (!_creature.isGM())
 		// {
 		val = Math.min(val, PlayerConfig.MAX_MATK_SPEED);

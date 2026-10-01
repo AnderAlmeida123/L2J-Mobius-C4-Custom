@@ -85,7 +85,7 @@
         <set name="is_magic_weapon" val="true" />
         <stats>
             <stat type="pAtk">369</stat>
-            <stat type="mAtk">249</stat>
+            <stat type="mAtk">259</stat>
             <stat type="critRate">4</stat>
             <stat type="accCombat">4.75</stat>
             <stat type="pAtkSpd">325</stat>
@@ -296,6 +296,261 @@
         <skills>
             <skill id="3564" level="1" /> <!-- Special Ability: Haste -->
         </skills>
+    </item>
+
+    <item id="9920" type="Armor" name="Dusk Shield">
+        <set name="icon" val="icon.shield_masterpiece_shield_i01" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="188" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="1170" />
+        <set name="price" val="3760000" />
+        <set name="enchant_enabled" val="true" />
+        <conditions msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </conditions>
+        <stats>
+            <stat type="rEvas">-1</stat>
+            <stat type="rShld">20</stat>
+            <stat type="sDef">350</stat>
+            <stat type="pDef">90</stat>
+        </stats>
+    </item>
+
+    <item id="9930" type="Armor" name="Titanium Shield">
+        <set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="lhand" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="188" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="BONE" />
+        <set name="weight" val="1170" />
+        <set name="price" val="3760000" />
+        <set name="enchant_enabled" val="true" />
+        <conditions msgId="1518">
+            <player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+        </conditions>
+        <stats>
+            <stat type="rEvas">-1</stat>
+            <stat type="rShld">20</stat>
+            <stat type="sDef">350</stat>
+            <stat type="pDef">80</stat>
+        </stats>
+    </item>
+
+    <item id="9940" type="Armor" name="Titanium Helm">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="269" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="FINE_STEEL" />
+        <set name="weight" val="570" />
+        <set name="price" val="1736800" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+    </item>
+
+    <item id="9941" type="Armor" name="Titanium Plate Armor">
+        <!-- May be worn by a Baron or a higher level Aristocrat. Full body armor used by clan
+        members. -->
+        <set name="icon" val="icon.armor_t1004_ul_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="HEAVY" />
+        <set name="bodypart" val="onepiece" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="870" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="9780" />
+        <set name="price" val="7524400" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">278</stat>
+        </stats>
+    </item>
+    <item id="9942" type="Armor" name="Titanium Gauntlet - Heavy Armor">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_t1004_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="179" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="580" />
+        <set name="price" val="1157000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">46</stat>
+        </stats>
+    </item>
+    <item id="9943" type="Armor" name="Titanium Solleret - Heavy Armor">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_t1004_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="179" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="BLOOD_STEEL" />
+        <set name="weight" val="1130" />
+        <set name="price" val="1157000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">46</stat>
+        </stats>
+    </item>
+    <item id="9944" type="Armor" name="Titanium Helm Light">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="269" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="FINE_STEEL" />
+        <set name="weight" val="570" />
+        <set name="price" val="1736800" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">69</stat>
+        </stats>
+    </item>
+    <item id="9945" type="Armor" name="Titanium Brigandine">
+        <!-- May be worn by a Baron or a higher level Aristocrat. Full body armor used by clan
+        members. -->
+        <set name="icon" val="icon.armor_t1005_ul_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="LIGHT" />
+        <set name="bodypart" val="onepiece" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="870" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="5400" />
+        <set name="price" val="5643300" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">209</stat>
+        </stats>
+    </item>
+    <item id="9946" type="Armor" name="Titanium Leather Gloves - Light Armor">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_t1005_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="179" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="580" />
+        <set name="price" val="1157000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">46</stat>
+        </stats>
+    </item>
+    <item id="9947" type="Armor" name="Titanium Boots - Light Armor">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_t1005_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="179" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="BLOOD_STEEL" />
+        <set name="weight" val="1130" />
+        <set name="price" val="1157000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">46</stat>
+        </stats>
+    </item>
+    <item id="9948" type="Armor" name="Titanium Helm">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_helmet_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="head" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="269" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="FINE_STEEL" />
+        <set name="weight" val="570" />
+        <set name="price" val="1736800" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">104</stat>
+        </stats>
+    </item>
+    <item id="9949" type="Armor" name="Titanium Doublet">
+        <!-- May be worn by a Baron or a higher level Aristocrat. Full body armor used by clan
+        members. -->
+        <set name="icon" val="icon.armor_t1006_ul_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="MAGIC" />
+        <set name="bodypart" val="onepiece" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="870" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="2450" />
+        <set name="price" val="5643300" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">189</stat>
+            <stat type="maxMp">665</stat>
+            <stat type="mAtkSpd">158</stat>
+        </stats>
+    </item>
+    <item id="9950" type="Armor" name="Titanium Silk Gloves - Robe">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_t1006_g_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="gloves" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="179" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="LEATHER" />
+        <set name="weight" val="580" />
+        <set name="price" val="1157000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">83</stat>
+        </stats>
+    </item>
+    <item id="9951" type="Armor" name="Titanium Sandals - Robe">
+        <!-- May be worn by a Baron or a higher level Aristocrat. -->
+        <set name="icon" val="icon.armor_t1006_b_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="bodypart" val="feet" />
+        <set name="immediate_effect" val="true" />
+        <set name="crystal_count" val="179" />
+        <set name="crystal_type" val="S" />
+        <set name="material" val="BLOOD_STEEL" />
+        <set name="weight" val="1130" />
+        <set name="price" val="1157000" />
+        <set name="element_enabled" val="true" />
+        <set name="enchant_enabled" val="true" />
+        <stats>
+            <stat type="pDef">81</stat>
+        </stats>
     </item>
 
 </list>

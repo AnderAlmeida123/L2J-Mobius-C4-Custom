@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../xsd/armorSets.xsd">
+	<!-- S GRADE Armor Sets -->
+	<set id="90">
+		<chest id="9941" /> <!-- TT Breastplate -->
+		<head id="9940" /> <!-- TT Helmet -->
+		<gloves id="9942" /> <!-- TT Gauntlets -->
+		<feet id="9943" /> <!-- TT Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="9901" level="1" /> <!-- TT Heavy Armor Set -->
+		<shield_skill id="3554" level="1" /> <!-- Equipped with Shield -->
+		<str val="2" />
+		<dex val="2" />
+	</set>
+	<set id="91">
+		<chest id="9945" /> <!-- TT Leather Armor -->
+		<head id="9944" /> <!-- TT Leather Helmet -->
+		<gloves id="9946" /> <!-- TT Leather Gloves -->
+		<feet id="9947" /> <!-- TT Leather Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="9903" level="1" /> <!-- TT Light Armor Set -->
+		<str val="1" />
+		<con val="-2" />
+		<dex val="1" />
+	</set>
+	<set id="92">
+		<chest id="9949" /> <!-- TT Robe -->
+		<head id="9948" /> <!-- TT Circlet -->
+		<gloves id="9950" /> <!-- TT Gloves -->
+		<feet id="9951" /> <!-- TT Boots -->
+		<skill id="3006" level="1" /> <!-- Equip Set Items -->
+		<skill id="9902" level="1" /> <!-- Major Arcana Robe Set -->
+		<int val="2" />
+		<men val="-2" />
+		<wit val="2" />
+	</set>
+</list>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+
+    <!-- Tattoos Fighter Lv1-Lv5 -->
+    <item id="10000" price="0" /> <!-- Tattoo of Fight Lv.1 -->
+    <item id="10001" price="0" /> <!-- Tattoo of Fight Lv.2 -->
+    <item id="10002" price="0" /> <!-- Tattoo of Fight Lv.3 -->
+    <item id="10003" price="0" /> <!-- Tattoo of Fight Lv.4 -->
+    <item id="10004" price="0" /> <!-- Tattoo of Fight Lv.5 -->
+
+    <!-- Tattoos Mage Lv1-Lv5 -->
+    <item id="10010" price="0" /> <!-- Tattoo of Mage Lv.1 -->
+    <item id="10011" price="0" /> <!-- Tattoo of Mage Lv.2 -->
+    <item id="10012" price="0" /> <!-- Tattoo of Mage Lv.3 -->
+    <item id="10013" price="0" /> <!-- Tattoo of Mage Lv.4 -->
+    <item id="10014" price="0" /> <!-- Tattoo of Mage Lv.5 -->
+
+    <!-- Tattoos Lv6 -->
+    <item id="10020" price="0" /> <!-- Tattoo Fighter Offensive -->
+    <item id="10021" price="0" /> <!-- Tattoo Fighter Defensive -->
+    <item id="10022" price="0" /> <!-- Tattoo Mage Offensive -->
+    <item id="10023" price="0" /> <!-- Tattoo Mage Defensive -->
+
+</list>
