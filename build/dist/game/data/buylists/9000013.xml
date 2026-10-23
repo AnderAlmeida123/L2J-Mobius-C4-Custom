@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <!-- Tattoos Lv.5 -->
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
+    <item id="10039" price="0" /> <!-- Tattoo of the Divine Protection Lv.5 -->
+    <item id="10040" price="0" /> <!-- Tattoo of the Angel Protection Lv.5 -->
+    <item id="10041" price="0" /> <!-- Tattoo of the Giant Protection Lv.5 -->
+    <item id="10042" price="0" /> <!-- Tattoo of the Fugitive Lv.5 -->
+    <item id="10043" price="0" /> <!-- Tattoo of the Divine Witch Lv.5 -->
+    <item id="10044" price="0" /> <!-- Tattoo of the Divine Monk Lv.5 -->
+</list>

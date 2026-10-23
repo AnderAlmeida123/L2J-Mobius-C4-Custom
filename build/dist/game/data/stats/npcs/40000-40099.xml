@@ -120,5 +120,34 @@
             <height normal="22.5" />
         </collision>
     </npc>
-
+    <npc id="40010" displayId="29022" level="75" type="Merchant" usingServerSideName="true"
+        name="Zaken da Muamba"
+        usingServerSideTitle="true" title=" Muambas">
+        <race>UNDEAD</race>
+        <sex>MALE</sex>
+        <acquire exp="4879745" sp="423589" />
+        <stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+            <vitals hp="360722" hpRegen="346.8" mp="180000" mpRegen="100" />
+            <attack physical="3616" magical="1520" random="30" critical="4" accuracy="4.75"
+                attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+            <defence physical="1981" magical="966.39" evasion="-18" />
+            <speed>
+                <walk ground="42" />
+                <run ground="190" />
+            </speed>
+            <hitTime>590</hitTime>
+        </stats>
+        <status undying="false" noSleepMode="true" />
+        <skillList>
+            <skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+            <skill id="4416" level="1" /> <!-- Undead -->
+        </skillList>
+        <corpseTime>300</corpseTime>
+        <exCrtEffect>true</exCrtEffect>
+        <ai type="BALANCED" aggroRange="0" clanHelpRange="300" isAggressive="false" />
+        <collision>
+            <radius normal="16" />
+            <height normal="32" />
+        </collision>
+    </npc>
 </list>

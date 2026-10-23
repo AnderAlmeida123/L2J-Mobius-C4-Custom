@@ -61,6 +61,7 @@ import org.l2jmobius.gameserver.config.custom.TransmogConfig;
 import org.l2jmobius.gameserver.config.custom.WalkerBotProtectionConfig;
 import org.l2jmobius.gameserver.config.custom.WarehouseSortingConfig;
 import org.l2jmobius.gameserver.config.custom.WeddingConfig;
+import org.l2jmobius.gameserver.config.custom.CustomStarterItemsConfig;
 
 /**
  * Central configuration loader for initializing all server configuration components.<br>
@@ -126,6 +127,7 @@ public class ConfigLoader
 		ServerTimeConfig.load();
 		StartingLocationConfig.load();
 		StartingTitleConfig.load();
+		CustomStarterItemsConfig.load();
 		TransmogConfig.load();
 		WalkerBotProtectionConfig.load();
 		WarehouseSortingConfig.load();

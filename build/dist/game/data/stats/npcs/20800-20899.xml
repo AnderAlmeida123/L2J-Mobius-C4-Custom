@@ -312,7 +312,7 @@
 			<height normal="42" />
 		</collision>
 	</npc>
-	<npc id="20804" level="41" type="Monster" name="Crokian Lad">
+	<npc id="20804" level="75" type="Monster" name="Crokian Lad">
 		<parameters>
 			<param name="MoveAroundSocial" value="115" />
 			<param name="MoveAroundSocial1" value="90" />
@@ -327,16 +327,17 @@
 		<race>HUMANOID</race>
 		<sex>MALE</sex>
 		<equipment rhand="5128" /> <!-- rhand: Crokian Blade -->
-		<acquire exp="5148" sp="336" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="1008.23781" hpRegen="5.5" mp="504.8" mpRegen="2.1" />
-			<attack physical="187.11878" magical="127.77787" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="160.69002" magical="106.989225133249" />
+		<acquire exp="51485" sp="33622" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
 				<walk ground="18" />
-				<run ground="174" />
+				<run ground="185" />
 			</speed>
-			<hitTime>780</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -387,7 +388,7 @@
 			<height normal="61" />
 		</collision>
 	</npc>
-	<npc id="20805" level="42" type="Monster" name="Dailaon Lad">
+	<npc id="20805" level="75" type="Monster" name="Dailaon Lad">
 		<parameters>
 			<param name="MoveAroundSocial" value="70" />
 			<param name="MoveAroundSocial1" value="70" />
@@ -402,15 +403,16 @@
 		<sex>MALE</sex>
 		<equipment rhand="5127" /> <!-- rhand: Dailaon Knife -->
 		<acquire exp="5580" sp="372" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="1050.81652" hpRegen="5.5" mp="531" mpRegen="2.1" />
-			<attack physical="198.34591" magical="135.44454" random="10" critical="8" accuracy="0" attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="164.88513" magical="109.782377202178" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
 				<walk ground="18" />
-				<run ground="174" />
+				<run ground="185" />
 			</speed>
-			<hitTime>910</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -466,7 +468,7 @@
 			<height normal="58" />
 		</collision>
 	</npc>
-	<npc id="20806" level="43" type="Monster" name="Crokian Lad Warrior">
+	<npc id="20806" level="75" type="Monster" name="Crokian Lad Warrior">
 		<parameters>
 			<param name="MoveAroundSocial" value="115" />
 			<param name="MoveAroundSocial1" value="90" />
@@ -482,15 +484,16 @@
 		<sex>MALE</sex>
 		<equipment rhand="5128" /> <!-- rhand: Crokian Blade -->
 		<acquire exp="5356" sp="362" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="1094.28943" hpRegen="5.5" mp="557.4" mpRegen="2.1" />
-			<attack physical="210.04832" magical="143.43577" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="169.13417" magical="112.611442266143" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
 				<walk ground="18" />
-				<run ground="174" />
+				<run ground="185" />
 			</speed>
-			<hitTime>780</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -542,7 +545,7 @@
 			<height normal="61" />
 		</collision>
 	</npc>
-	<npc id="20807" level="44" type="Monster" name="Farhite Lad">
+	<npc id="20807" level="75" type="Monster" name="Farhite Lad">
 		<parameters>
 			<param name="MoveAroundSocial" value="70" />
 			<param name="MoveAroundSocial1" value="90" />
@@ -559,15 +562,16 @@
 		<sex>MALE</sex>
 		<equipment rhand="5131" /> <!-- rhand: Parhit Staff -->
 		<acquire exp="5634" sp="386" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="1138.62924" hpRegen="5.5" mp="584" mpRegen="2.1" />
-			<attack physical="222.23112" magical="151.75505" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="173.43552" magical="115.475328468187" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="15" />
-				<run ground="174" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>740</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -624,7 +628,7 @@
 			<height normal="48" />
 		</collision>
 	</npc>
-	<npc id="20808" level="45" type="Monster" name="Nos Lad">
+	<npc id="20808" level="75" type="Monster" name="Nos Lad">
 		<parameters>
 			<param name="MoveAroundSocial" value="70" />
 			<param name="MoveAroundSocial1" value="81" />
@@ -640,15 +644,16 @@
 		<sex>MALE</sex>
 		<equipment rhand="128" /> <!-- rhand: Knight's Sword -->
 		<acquire exp="6974" sp="484" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="1183.80594" hpRegen="5.5" mp="610.8" mpRegen="2.1" />
-			<attack physical="234.89829" magical="160.40508" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="177.78746" magical="118.372898457316" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
 				<walk ground="18" />
-				<run ground="174" />
+				<run ground="185" />
 			</speed>
-			<hitTime>780</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -718,15 +723,16 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<acquire exp="12135" sp="1053" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="1933.24044" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
-			<attack physical="481.34551" magical="328.69659" random="50" critical="1" accuracy="9" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="247.65008" magical="164.888215781956" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="80" />
-				<run ground="143" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>390</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>

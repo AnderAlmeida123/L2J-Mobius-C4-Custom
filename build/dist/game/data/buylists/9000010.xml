@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+
+    <!-- Tattoos Lv.2 -->
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
+    <item id="10000" price="0" /> <!-- Tattoo of Magic Power Lv.2 -->
+    <item id="10001" price="0" /> <!-- Tattoo of the Rabbit Lv.2 -->
+    <item id="10002" price="0" /> <!-- Tattoo of the Monk Lv.2 -->
+    <item id="10003" price="0" /> <!-- Tattoo of the Assassin Lv.2 -->
+    <item id="10004" price="0" /> <!-- Tattoo of the Giant Lv.2 -->
+    <item id="10005" price="0" /> <!-- Tattoo of the Scholar Lv.2 -->
+    <item id="10006" price="0" /> <!-- Tattoo of the Troll Lv.2 -->
+    <item id="10007" price="0" /> <!-- Tattoo of the Nymph Lv.2 -->
+    <item id="10008" price="0" /> <!-- Tattoo of the Sniper Lv.2 -->
+    <item id="10009" price="0" /> <!-- Tattoo of the Ghost Lv.2 -->
+    <item id="10010" price="0" /> <!-- Tattoo of the Witch Lv.2 -->
+</list>

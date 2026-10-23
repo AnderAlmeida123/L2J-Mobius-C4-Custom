@@ -2,201 +2,16 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
 
-    <!-- ========================= -->
-    <!-- TATTOO OF FIGHT LV.1-5   -->
-    <!-- ========================= -->
+    <!--
+        TATTOOS ANTIGAS -> FORMATO ATUAL MOBIUS
+        Percentual antigo: +13% -> operation="mul">1.13</stat>
+        Valor fixo antigo: +300 -> operation="add">300</stat>
+        Bodypart: hair, seguindo a estrutura das novas tattoos testadas.
+        O ID antigo fica em comentário para facilitar rastreamento.
+    -->
 
-    <item id="10000" type="Armor" name="Tattoo of Fight Lv.1">
-        <set name="icon" val="icon.etc_dex_symbol_i00" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="pAtk">80</stat>
-            <stat type="pAtkSpd">100</stat>
-            <stat type="pDef">80</stat>
-            <stat type="mDef">80</stat>
-            <stat type="runSpd">25</stat>
-            <stat type="maxHp">150</stat>
-            <stat type="maxMp">120</stat>
-        </stats>
-    </item>
-
-    <item id="10001" type="Armor" name="Tattoo of Fight Lv.2">
-        <set name="icon" val="icon.etc_dex_symbol_i01" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="pAtk">220</stat>
-            <stat type="pAtkSpd">140</stat>
-            <stat type="pDef">120</stat>
-            <stat type="mDef">120</stat>
-            <stat type="runSpd">45</stat>
-            <stat type="maxHp">180</stat>
-            <stat type="maxMp">150</stat>
-        </stats>
-    </item>
-
-    <item id="10002" type="Armor" name="Tattoo of Fight Lv.3">
-        <set name="icon" val="icon.etc_str_symbol_i00" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="pAtk">360</stat>
-            <stat type="pAtkSpd">200</stat>
-            <stat type="pDef">260</stat>
-            <stat type="mDef">260</stat>
-            <stat type="runSpd">65</stat>
-            <stat type="maxHp">250</stat>
-            <stat type="maxMp">250</stat>
-        </stats>
-    </item>
-
-    <item id="10003" type="Armor" name="Tattoo of Fight Lv.4">
-        <set name="icon" val="icon.etc_str_symbol_i01" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="pAtk">500</stat>
-            <stat type="pAtkSpd">270</stat>
-            <stat type="pDef">450</stat>
-            <stat type="mDef">450</stat>
-            <stat type="runSpd">95</stat>
-            <stat type="maxHp">700</stat>
-            <stat type="maxMp">700</stat>
-        </stats>
-    </item>
-
-    <item id="10004" type="Armor" name="Tattoo of Fight Lv.5">
-        <set name="icon" val="icon.etc_con_symbol_i05" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="pAtk">1000</stat>
-            <stat type="pAtkSpd">500</stat>
-            <stat type="pDef">1000</stat>
-            <stat type="mDef">1000</stat>
-            <stat type="runSpd">150</stat>
-            <stat type="maxHp">2000</stat>
-            <stat type="maxMp">1500</stat>
-        </stats>
-    </item>
-
-
-    <!-- ========================= -->
-    <!-- TATTOO OF MAGE LV.1-5    -->
-    <!-- ========================= -->
-
-    <item id="10010" type="Armor" name="Tattoo of Mage Lv.1">
-        <set name="icon" val="icon.etc_men_symbol_i00" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="mAtk">80</stat>
-            <stat type="mAtkSpd">100</stat>
-            <stat type="pDef">80</stat>
-            <stat type="mDef">80</stat>
-            <stat type="runSpd">20</stat>
-            <stat type="maxMp">180</stat>
-        </stats>
-    </item>
-
-    <item id="10011" type="Armor" name="Tattoo of Mage Lv.2">
-        <set name="icon" val="icon.etc_men_symbol_i01" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="mAtk">220</stat>
-            <stat type="mAtkSpd">140</stat>
-            <stat type="pDef">120</stat>
-            <stat type="mDef">120</stat>
-            <stat type="runSpd">35</stat>
-            <stat type="maxMp">230</stat>
-        </stats>
-    </item>
-
-    <item id="10012" type="Armor" name="Tattoo of Mage Lv.3">
-        <set name="icon" val="icon.etc_wit_symbol_i00" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="mAtk">360</stat>
-            <stat type="mAtkSpd">200</stat>
-            <stat type="pDef">260</stat>
-            <stat type="mDef">260</stat>
-            <stat type="runSpd">50</stat>
-            <stat type="maxMp">350</stat>
-        </stats>
-    </item>
-
-    <item id="10013" type="Armor" name="Tattoo of Mage Lv.4">
-        <set name="icon" val="icon.etc_wit_symbol_i01" />
-        <set name="default_action" val="EQUIP" />
-        <set name="armor_type" val="NONE" />
-        <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="underwear" />
-        <set name="material" val="DYESTUFF" />
-        <set name="weight" val="4200" />
-        <set name="price" val="36900" />
-
-        <stats>
-            <stat type="mAtk">500</stat>
-            <stat type="mAtkSpd">270</stat>
-            <stat type="pDef">450</stat>
-            <stat type="mDef">450</stat>
-            <stat type="runSpd">70</stat>
-            <stat type="maxMp">900</stat>
-        </stats>
-    </item>
-
-    <item id="10014" type="Armor" name="Tattoo of Mage Lv.5">
+    <!-- ID antigo: 28007 -->
+    <item id="10000" type="Armor" name="Tattoo of Magic Power">
         <set name="icon" val="icon.etc_int_symbol_i00" />
         <set name="default_action" val="EQUIP" />
         <set name="armor_type" val="NONE" />
@@ -205,94 +20,887 @@
         <set name="material" val="DYESTUFF" />
         <set name="weight" val="4200" />
         <set name="price" val="36900" />
-
         <stats>
-            <stat type="mAtk" operation="add">1000</stat>
-            <stat type="mAtkSpd" operation="add">500</stat>
-            <stat type="pDef" operation="add">1000</stat>
-            <stat type="mDef" operation="add">1000</stat>
-            <stat type="runSpd" operation="add">100</stat>
-            <stat type="maxMp" operation="add">2000</stat>
+            <stat type="mAtk" operation="mul">1.13</stat>
         </stats>
     </item>
 
-
-    <!-- ========================= -->
-    <!-- TATTOO Fighter Offensive                 -->
-    <!-- ========================= -->
-
-    <item id="10020" type="Armor" name="TATTOO Fighter Offensive">
-        <set name="icon" val="icon.etc_con_symbol_i01" />
+    <!-- ID antigo: 28008 -->
+    <item id="10001" type="Armor" name="Tattoo of the Rabbit">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
         <set name="default_action" val="EQUIP" />
         <set name="armor_type" val="NONE" />
         <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="hair" />
+        <set name="bodypart" val="underwear" />
         <set name="material" val="DYESTUFF" />
         <set name="weight" val="4200" />
         <set name="price" val="36900" />
         <stats>
-            <stat type="pAtk" operation="add">1600</stat>
-            <stat type="pAtkSpd" operation="add">700</stat>
+            <stat type="runSpd" operation="mul">1.13</stat>
         </stats>
     </item>
 
-    <!-- ========================= -->
-    <!-- TATTOO Fighter Defensive                  -->
-    <!-- ========================= -->
-
-    <item id="10021" type="Armor" name="TATTOO Fighter Defensive">
-        <set name="icon" val="icon.etc_str_symbol_i01" />
+    <!-- ID antigo: 28009 -->
+    <item id="10002" type="Armor" name="Tattoo of the Monk">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
         <set name="default_action" val="EQUIP" />
         <set name="armor_type" val="NONE" />
         <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="hair" />
+        <set name="bodypart" val="underwear" />
         <set name="material" val="DYESTUFF" />
         <set name="weight" val="4200" />
         <set name="price" val="36900" />
         <stats>
-            <stat type="pDef" operation="add">1200</stat>
-            <stat type="mDef" operation="add">1200</stat>
-            <stat type="maxHp" operation="add">2000</stat>
+            <stat type="pAtkSpd" operation="mul">1.13</stat>
         </stats>
     </item>
 
-
-    <!-- ========================= -->
-    <!-- TATTOO Mage Offensive                 -->
-    <!-- ========================= -->
-
-    <item id="10022" type="Armor" name="TATTOO Mage Offensive">
-        <set name="icon" val="icon.etc_wit_symbol_i01" />
+    <!-- ID antigo: 28010 -->
+    <item id="10003" type="Armor" name="Tattoo of the Assassin">
+        <set name="icon" val="icon.etc_str_symbol_i00" />
         <set name="default_action" val="EQUIP" />
         <set name="armor_type" val="NONE" />
         <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="hair" />
+        <set name="bodypart" val="underwear" />
         <set name="material" val="DYESTUFF" />
         <set name="weight" val="4200" />
         <set name="price" val="36900" />
         <stats>
-            <stat type="mAtk" operation="add">1600</stat>
-            <stat type="mAtkSpd" operation="add">500</stat>
+            <stat type="critRate" operation="mul">1.11</stat>
         </stats>
     </item>
 
-    <!-- ========================= -->
-    <!-- TATTOO Mage Defensive                 -->
-    <!-- ========================= -->
-
-    <item id="10023" type="Armor" name="TATTOO Mage Defensive">
-        <set name="icon" val="icon.etc_men_symbol_i01" />
+    <!-- ID antigo: 28011 -->
+    <item id="10004" type="Armor" name="Tattoo of the Giant">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
         <set name="default_action" val="EQUIP" />
         <set name="armor_type" val="NONE" />
         <set name="is_oly_restricted" val="true" />
-        <set name="bodypart" val="hair" />
+        <set name="bodypart" val="underwear" />
         <set name="material" val="DYESTUFF" />
         <set name="weight" val="4200" />
         <set name="price" val="36900" />
         <stats>
-            <stat type="pDef" operation="add">1600</stat>
-            <stat type="mDef" operation="add">1600</stat>
-            <stat type="maxHp" operation="add">1500</stat>
+            <stat type="maxHp" operation="mul">1.15</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28012 -->
+    <item id="10005" type="Armor" name="Tattoo of the Scholar">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxMp" operation="mul">1.18</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28013 -->
+    <item id="10006" type="Armor" name="Tattoo of the Troll">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regHp" operation="mul">1.10</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28014 -->
+    <item id="10007" type="Armor" name="Tattoo of the Nymph">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regMp" operation="mul">1.10</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28015 -->
+    <item id="10008" type="Armor" name="Tattoo of the Sniper">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="accCombat" operation="add">5</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28016 -->
+    <item id="10009" type="Armor" name="Tattoo of the Ghost">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="rEvas" operation="add">6</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28017 -->
+    <item id="10010" type="Armor" name="Tattoo of the Witch">
+        <set name="icon" val="icon.etc_wit_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtkSpd" operation="mul">1.13</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28021 -->
+    <item id="10011" type="Armor" name="Tattoo of the Mirror">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mDef" operation="mul">1.30</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28022 -->
+    <item id="10012" type="Armor" name="Tattoo of the Golem">
+        <set name="icon" val="icon.etc_str_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pDef" operation="mul">1.30</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28023 -->
+    <item id="10013" type="Armor" name="Tattoo of Fire">
+        <set name="icon" val="icon.etc_int_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="reflectDam" operation="mul">1.12</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28025 -->
+    <item id="10014" type="Armor" name="Tattoo of Magic Power">
+        <set name="icon" val="icon.etc_int_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtk" operation="mul">1.19</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28026 -->
+    <item id="10015" type="Armor" name="Tattoo of the Rabbit">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="runSpd" operation="mul">1.23</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28027 -->
+    <item id="10016" type="Armor" name="Tattoo of the Monk">
+        <set name="icon" val="icon.etc_str_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pAtkSpd" operation="mul">1.19</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28028 -->
+    <item id="10017" type="Armor" name="Tattoo of the Assassin">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="critRate" operation="mul">1.22</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28029 -->
+    <item id="10018" type="Armor" name="Tattoo of the Giant">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxHp" operation="mul">1.22</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28030 -->
+    <item id="10019" type="Armor" name="Tattoo of the Scholar">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxMp" operation="mul">1.28</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28031 -->
+    <item id="10020" type="Armor" name="Tattoo of the Troll">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regHp" operation="mul">1.20</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28032 -->
+    <item id="10021" type="Armor" name="Tattoo of the Nymph">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regMp" operation="mul">1.20</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28033 -->
+    <item id="10022" type="Armor" name="Tattoo of the Sniper">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="accCombat" operation="add">9</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28034 -->
+    <item id="10023" type="Armor" name="Tattoo of the Ghost">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="rEvas" operation="add">9</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28035 -->
+    <item id="10024" type="Armor" name="Tattoo of the Witch">
+        <set name="icon" val="icon.etc_wit_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtkSpd" operation="mul">1.26</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28039 -->
+    <item id="10025" type="Armor" name="Tattoo of the Mirror">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mDef" operation="mul">1.40</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28040 -->
+    <item id="10026" type="Armor" name="Tattoo of the Golem">
+        <set name="icon" val="icon.etc_str_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pDef" operation="mul">1.40</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28041 -->
+    <item id="10027" type="Armor" name="Tattoo of Fire">
+        <set name="icon" val="icon.etc_int_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="reflectDam" operation="mul">1.20</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28043 -->
+    <item id="10028" type="Armor" name="Tattoo of Magic Power">
+        <set name="icon" val="icon.etc_int_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtk" operation="mul">1.28</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28044 -->
+    <item id="10029" type="Armor" name="Tattoo of the Rabbit">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="runSpd" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28045 -->
+    <item id="10030" type="Armor" name="Tattoo of the Monk">
+        <set name="icon" val="icon.etc_str_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pAtkSpd" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28046 -->
+    <item id="10031" type="Armor" name="Tattoo of the Assassin">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="critRate" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28047 -->
+    <item id="10032" type="Armor" name="Tattoo of the Giant">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxHp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28048 -->
+    <item id="10033" type="Armor" name="Tattoo of the Scholar">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxMp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28049 -->
+    <item id="10034" type="Armor" name="Tattoo of the Troll">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regHp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28050 -->
+    <item id="10035" type="Armor" name="Tattoo of the Nymph">
+        <set name="icon" val="icon.etc_men_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regMp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28051 -->
+    <item id="10036" type="Armor" name="Tattoo of the Sniper">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="accCombat" operation="add">13</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28052 -->
+    <item id="10037" type="Armor" name="Tattoo of the Ghost">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="rEvas" operation="add">13</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28053 -->
+    <item id="10038" type="Armor" name="Tattoo of the Witch">
+        <set name="icon" val="icon.etc_wit_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtkSpd" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28055 -->
+    <item id="10039" type="Armor" name="Tattoo of the Angel Protection">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mDef" operation="mul">1.40</stat>
+            <stat type="pDef" operation="mul">1.40</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28056 -->
+    <item id="10040" type="Armor" name="Tattoo of the Giant Protection">
+        <set name="icon" val="icon.etc_con_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxHp" operation="mul">1.35</stat>
+            <stat type="maxMp" operation="mul">1.35</stat>
+            <stat type="regHp" operation="mul">1.35</stat>
+            <stat type="regMp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28057 -->
+    <item id="10041" type="Armor" name="Tattoo of the Fugitive">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="rEvas" operation="add">13</stat>
+            <stat type="runSpd" operation="mul">1.33</stat>
+            <stat type="reflectDam" operation="mul">1.20</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28058 -->
+    <item id="10042" type="Armor" name="Tattoo of the Divine Witch">
+        <set name="icon" val="icon.etc_wit_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtkSpd" operation="mul">1.33</stat>
+            <stat type="mAtk" operation="mul">1.28</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28059 -->
+    <item id="10043" type="Armor" name="Tattoo of the Divine Monk">
+        <set name="icon" val="icon.etc_str_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pAtkSpd" operation="mul">1.33</stat>
+            <stat type="pAtk" operation="mul">1.15</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28060 -->
+    <item id="10044" type="Armor" name="Tattoo of the Divine Assassin">
+        <set name="icon" val="icon.etc_dex_symbol_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="underwear" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="critRate" operation="mul">1.33</stat>
+            <stat type="accCombat" operation="add">13</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28064 -->
+    <item id="10045" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mDef" operation="mul">1.40</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28065 -->
+    <item id="10046" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pDef" operation="mul">1.40</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28066 -->
+    <item id="10047" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="reflectDam" operation="mul">1.40</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28068 -->
+    <item id="10048" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtk" operation="mul">1.28</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28069 -->
+    <item id="10049" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="runSpd" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28070 -->
+    <item id="10050" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="pAtkSpd" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28071 -->
+    <item id="10051" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="critRate" operation="mul">1.33</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28072 -->
+    <item id="10052" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxHp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28073 -->
+    <item id="10053" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="maxMp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28074 -->
+    <item id="10054" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regHp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28075 -->
+    <item id="10055" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="regMp" operation="mul">1.35</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28076 -->
+    <item id="10056" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="accCombat" operation="add">13</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28077 -->
+    <item id="10057" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="rEvas" operation="add">13</stat>
+        </stats>
+    </item>
+
+    <!-- ID antigo: 28078 -->
+    <item id="10058" type="Armor" name="Enchanted Angel Wings">
+        <set name="icon" val="icon.etc_angel_wing_i00" />
+        <set name="default_action" val="EQUIP" />
+        <set name="armor_type" val="NONE" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="bodypart" val="back" />
+        <set name="material" val="DYESTUFF" />
+        <set name="weight" val="4200" />
+        <set name="price" val="36900" />
+        <stats>
+            <stat type="mAtkSpd" operation="mul">1.33</stat>
         </stats>
     </item>
 

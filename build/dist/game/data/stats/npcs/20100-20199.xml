@@ -1619,7 +1619,7 @@
 			<height normal="65" />
 		</collision>
 	</npc>
-	<npc id="20135" level="40" type="Monster" name="Alligator">
+	<npc id="20135" level="75" type="Monster" name="Alligator">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -1633,15 +1633,16 @@
 		<race>ANIMAL</race>
 		<sex>MALE</sex>
 		<acquire exp="2373" sp="153" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="966.57792" hpRegen="4.5" mp="478.8" mpRegen="1.8" />
-			<attack physical="176.36077" magical="120.43155" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="156.55035" magical="104.232986928232" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="70" />
-				<run ground="174" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>410</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>

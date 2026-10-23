@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
 	<item id="1060" price="0" /> <!-- Lesser Healing Potion -->
 	<item id="1061" price="0" /> <!-- Healing Potion -->
 	<item id="1539" price="0" /> <!-- Greater Healing Potion -->
@@ -29,4 +30,5 @@
 	<item id="733" price="0" /> <!-- Endeavor Potion -->
 	<item id="5234" price="0" /> <!-- Mystery Potion -->
 	<item id="1540" price="0" /> <!-- Quick Healing Potion -->
+	<item id="728" price="0" /> <!-- Mana Potion -->
 </list>

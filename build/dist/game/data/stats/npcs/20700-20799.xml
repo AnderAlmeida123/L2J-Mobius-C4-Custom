@@ -3314,7 +3314,7 @@
 			<height normal="11" />
 		</collision>
 	</npc>
-	<npc id="20784" level="36" type="Monster" name="Tasaba Lizardman">
+	<npc id="20784" level="75" type="Monster" name="Tasaba Lizardman">
 		<parameters>
 			<param name="MoveAroundSocial" value="139" />
 			<param name="MoveAroundSocial1" value="35" />
@@ -3328,16 +3328,16 @@
 		<sex>MALE</sex>
 		<equipment rhand="2507" /> <!-- rhand: Lizardspear -->
 		<acquire exp="926" sp="56" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="809.52639" hpRegen="4.5" mp="417.6" mpRegen="1.8" />
-			<attack physical="137.86467" magical="94.1437" random="10" critical="8" accuracy="0"
-				attackSpeed="253" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
-			<defence physical="140.57278" magical="93.5949427192352" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="43" />
-				<run ground="140" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>720</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -3391,7 +3391,7 @@
 			<height normal="22" grown="27" />
 		</collision>
 	</npc>
-	<npc id="20785" level="37" type="Monster" name="Tasaba Lizardman Shaman">
+	<npc id="20785" level="75" type="Monster" name="Tasaba Lizardman Shaman">
 		<parameters>
 			<param name="MoveAroundSocial" value="75" />
 			<param name="MoveAroundSocial1" value="75" />
@@ -3407,16 +3407,16 @@
 		<sex>MALE</sex>
 		<equipment rhand="7" /> <!-- rhand: Apprentice's Rod -->
 		<acquire exp="896" sp="55" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="847.31754" hpRegen="4.5" mp="432.72" mpRegen="1.8" />
-			<attack physical="146.82587" magical="100.26304" random="50" critical="1" accuracy="9"
-				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
-			<defence physical="144.47758" magical="96.1948088105753" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="43" />
-				<run ground="140" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>480</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -3490,7 +3490,7 @@
 			<height normal="29" />
 		</collision>
 	</npc>
-	<npc id="20786" level="39" type="Monster" name="Lienrik">
+	<npc id="20786" level="75" type="Monster" name="Lienrik">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3505,16 +3505,16 @@
 		<race>BEAST</race>
 		<sex>MALE</sex>
 		<acquire exp="995" sp="63" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="925.85879" hpRegen="4.5" mp="463.32" mpRegen="1.8" />
-			<attack physical="166.06476" magical="113.4007" random="10" critical="8" accuracy="0"
-				attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="152.46752" magical="101.514599764346" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="100" />
-				<run ground="150" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>460</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>
@@ -3570,7 +3570,7 @@
 			<height normal="50" />
 		</collision>
 	</npc>
-	<npc id="20787" level="40" type="Monster" name="Lienrik Lad">
+	<npc id="20787" level="75" type="Monster" name="Lienrik Lad">
 		<parameters>
 			<param name="MoveAroundSocial" value="0" />
 			<param name="MoveAroundSocial1" value="0" />
@@ -3585,16 +3585,16 @@
 		<race>BEAST</race>
 		<sex>MALE</sex>
 		<acquire exp="1210" sp="78" />
-		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
-			<vitals hp="966.57792" hpRegen="4.5" mp="478.8" mpRegen="1.8" />
-			<attack physical="176.36077" magical="120.43155" random="10" critical="8" accuracy="0"
-				attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="156.55035" magical="104.232986928232" />
+		<stats str="42" int="21" dex="32" wit="20" con="45" men="10">
+			<vitals hp="13500" hpRegen="19" mp="6200" mpRegen="8.2" />
+			<attack physical="500" magical="350" random="90" critical="20" accuracy="120"
+				attackSpeed="350" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
 			<speed>
-				<walk ground="100" />
-				<run ground="174" />
+				<walk ground="18" />
+				<run ground="185" />
 			</speed>
-			<hitTime>460</hitTime>
+			<hitTime>900</hitTime>
 		</stats>
 		<status undying="false" canBeSown="true" />
 		<skillList>

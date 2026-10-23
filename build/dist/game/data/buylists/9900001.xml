@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
     <item id="9901" price="0" /> <!-- Athena Blade -->
     <item id="9902" price="0" /> <!-- Artemis Bow -->
     <item id="9903" price="0" /> <!-- Aphrodite Sceptre -->

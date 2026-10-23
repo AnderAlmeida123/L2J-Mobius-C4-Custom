@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <!-- Tattoos Lv.3 -->
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
+    <item id="10011" price="0" /> <!-- Tattoo of the Mirror Lv.3 -->
+    <item id="10012" price="0" /> <!-- Tattoo of the Golem Lv.3 -->
+    <item id="10013" price="0" /> <!-- Tattoo of Fire Lv.3 -->
+    <item id="10014" price="0" /> <!-- Tattoo of Magic Power Lv.3 -->
+    <item id="10015" price="0" /> <!-- Tattoo of the Rabbit Lv.3 -->
+    <item id="10016" price="0" /> <!-- Tattoo of the Monk Lv.3 -->
+    <item id="10017" price="0" /> <!-- Tattoo of the Assassin Lv.3 -->
+    <item id="10018" price="0" /> <!-- Tattoo of the Giant Lv.3 -->
+    <item id="10019" price="0" /> <!-- Tattoo of the Scholar Lv.3 -->
+    <item id="10020" price="0" /> <!-- Tattoo of the Troll Lv.3 -->
+    <item id="10021" price="0" /> <!-- Tattoo of the Nymph Lv.3 -->
+    <item id="10022" price="0" /> <!-- Tattoo of the Sniper Lv.3 -->
+    <item id="10023" price="0" /> <!-- Tattoo of the Ghost Lv.3 -->
+    <item id="10024" price="0" /> <!-- Tattoo of the Witch Lv.3 -->
+</list>

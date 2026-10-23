@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <!-- Enchanted Angel Wings / Old Tattoos -->
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
+    <item id="10045" price="0" /> <!-- Enchanted Angel Wings Mirror -->
+    <item id="10046" price="0" /> <!-- Enchanted Angel Wings Golem -->
+    <item id="10047" price="0" /> <!-- Enchanted Angel Wings Fire -->
+    <item id="10048" price="0" /> <!-- Enchanted Angel Wings Magic Power -->
+    <item id="10049" price="0" /> <!-- Enchanted Angel Wings Rabbit -->
+    <item id="10050" price="0" /> <!-- Enchanted Angel Wings Monk -->
+    <item id="10051" price="0" /> <!-- Enchanted Angel Wings Assassin -->
+    <item id="10052" price="0" /> <!-- Enchanted Angel Wings Giant -->
+    <item id="10053" price="0" /> <!-- Enchanted Angel Wings Scholar -->
+    <item id="10054" price="0" /> <!-- Enchanted Angel Wings Troll -->
+    <item id="10055" price="0" /> <!-- Enchanted Angel Wings Nymph -->
+    <item id="10056" price="0" /> <!-- Enchanted Angel Wings Snipe -->
+    <item id="10057" price="0" /> <!-- Enchanted Angel Wings Ghost -->
+    <item id="10058" price="0" /> <!-- Enchanted Angel Wings witch -->
+
+</list>

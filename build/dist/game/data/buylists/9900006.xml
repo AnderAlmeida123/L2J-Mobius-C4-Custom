@@ -3,24 +3,74 @@
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
 
-    <!-- Tattoos Fighter Lv1-Lv5 -->
-    <item id="10000" price="0" /> <!-- Tattoo of Fight Lv.1 -->
-    <item id="10001" price="0" /> <!-- Tattoo of Fight Lv.2 -->
-    <item id="10002" price="0" /> <!-- Tattoo of Fight Lv.3 -->
-    <item id="10003" price="0" /> <!-- Tattoo of Fight Lv.4 -->
-    <item id="10004" price="0" /> <!-- Tattoo of Fight Lv.5 -->
+    <!-- Tattoos Lv.2 -->
+    <item id="10000" price="0" /> <!-- Tattoo of Magic Power Lv.2 -->
+    <item id="10001" price="0" /> <!-- Tattoo of the Rabbit Lv.2 -->
+    <item id="10002" price="0" /> <!-- Tattoo of the Monk Lv.2 -->
+    <item id="10003" price="0" /> <!-- Tattoo of the Assassin Lv.2 -->
+    <item id="10004" price="0" /> <!-- Tattoo of the Giant Lv.2 -->
+    <item id="10005" price="0" /> <!-- Tattoo of the Scholar Lv.2 -->
+    <item id="10006" price="0" /> <!-- Tattoo of the Troll Lv.2 -->
+    <item id="10007" price="0" /> <!-- Tattoo of the Nymph Lv.2 -->
+    <item id="10008" price="0" /> <!-- Tattoo of the Sniper Lv.2 -->
+    <item id="10009" price="0" /> <!-- Tattoo of the Ghost Lv.2 -->
+    <item id="10010" price="0" /> <!-- Tattoo of the Witch Lv.2 -->
 
-    <!-- Tattoos Mage Lv1-Lv5 -->
-    <item id="10010" price="0" /> <!-- Tattoo of Mage Lv.1 -->
-    <item id="10011" price="0" /> <!-- Tattoo of Mage Lv.2 -->
-    <item id="10012" price="0" /> <!-- Tattoo of Mage Lv.3 -->
-    <item id="10013" price="0" /> <!-- Tattoo of Mage Lv.4 -->
-    <item id="10014" price="0" /> <!-- Tattoo of Mage Lv.5 -->
+    <!-- Tattoos Lv.3 -->
+    <item id="10011" price="0" /> <!-- Tattoo of the Mirror Lv.3 -->
+    <item id="10012" price="0" /> <!-- Tattoo of the Golem Lv.3 -->
+    <item id="10013" price="0" /> <!-- Tattoo of Fire Lv.3 -->
+    <item id="10014" price="0" /> <!-- Tattoo of Magic Power Lv.3 -->
+    <item id="10015" price="0" /> <!-- Tattoo of the Rabbit Lv.3 -->
+    <item id="10016" price="0" /> <!-- Tattoo of the Monk Lv.3 -->
+    <item id="10017" price="0" /> <!-- Tattoo of the Assassin Lv.3 -->
+    <item id="10018" price="0" /> <!-- Tattoo of the Giant Lv.3 -->
+    <item id="10019" price="0" /> <!-- Tattoo of the Scholar Lv.3 -->
+    <item id="10020" price="0" /> <!-- Tattoo of the Troll Lv.3 -->
+    <item id="10021" price="0" /> <!-- Tattoo of the Nymph Lv.3 -->
+    <item id="10022" price="0" /> <!-- Tattoo of the Sniper Lv.3 -->
+    <item id="10023" price="0" /> <!-- Tattoo of the Ghost Lv.3 -->
+    <item id="10024" price="0" /> <!-- Tattoo of the Witch Lv.3 -->
 
-    <!-- Tattoos Lv6 -->
-    <item id="10020" price="0" /> <!-- Tattoo Fighter Offensive -->
-    <item id="10021" price="0" /> <!-- Tattoo Fighter Defensive -->
-    <item id="10022" price="0" /> <!-- Tattoo Mage Offensive -->
-    <item id="10023" price="0" /> <!-- Tattoo Mage Defensive -->
+    <!-- Tattoos Lv.4 -->
+    <item id="10025" price="0" /> <!-- Tattoo of the Mirror Lv.4 -->
+    <item id="10026" price="0" /> <!-- Tattoo of the Golem Lv.4 -->
+    <item id="10027" price="0" /> <!-- Tattoo of Fire Lv.4 -->
+    <item id="10028" price="0" /> <!-- Tattoo of Magic Power Lv.4 -->
+    <item id="10029" price="0" /> <!-- Tattoo of the Rabbit Lv.4 -->
+    <item id="10030" price="0" /> <!-- Tattoo of the Monk Lv.4 -->
+    <item id="10031" price="0" /> <!-- Tattoo of the Assassin Lv.4 -->
+    <item id="10032" price="0" /> <!-- Tattoo of the Giant Lv.4 -->
+    <item id="10033" price="0" /> <!-- Tattoo of the Scholar Lv.4 -->
+    <item id="10034" price="0" /> <!-- Tattoo of the Troll Lv.4 -->
+    <item id="10035" price="0" /> <!-- Tattoo of the Nymph Lv.4 -->
+    <item id="10036" price="0" /> <!-- Tattoo of the Sniper Lv.4 -->
+    <item id="10037" price="0" /> <!-- Tattoo of the Ghost Lv.4 -->
+    <item id="10038" price="0" /> <!-- Tattoo of the Witch Lv.4 -->
+
+    <!-- Tattoos Lv.5 -->
+    <item id="10039" price="0" /> <!-- Tattoo of the Divine Protection Lv.5 -->
+    <item id="10040" price="0" /> <!-- Tattoo of the Angel Protection Lv.5 -->
+    <item id="10041" price="0" /> <!-- Tattoo of the Giant Protection Lv.5 -->
+    <item id="10042" price="0" /> <!-- Tattoo of the Fugitive Lv.5 -->
+    <item id="10043" price="0" /> <!-- Tattoo of the Divine Witch Lv.5 -->
+    <item id="10044" price="0" /> <!-- Tattoo of the Divine Monk Lv.5 -->
+    <item id="10045" price="0" /> <!-- Tattoo of the Divine Assassin Lv.5 -->
+
+    <!-- Enchanted Angel Wings / Old Tattoos -->
+    <item id="10045" price="0" /> <!-- Enchanted Angel Wings Mirror -->
+    <item id="10046" price="0" /> <!-- Enchanted Angel Wings Golem -->
+    <item id="10047" price="0" /> <!-- Enchanted Angel Wings Fire -->
+    <item id="10048" price="0" /> <!-- Enchanted Angel Wings Magic Power -->
+    <item id="10049" price="0" /> <!-- Enchanted Angel Wings Rabbit -->
+    <item id="10050" price="0" /> <!-- Enchanted Angel Wings Monk -->
+    <item id="10051" price="0" /> <!-- Enchanted Angel Wings Assassin -->
+    <item id="10052" price="0" /> <!-- Enchanted Angel Wings Giant -->
+    <item id="10053" price="0" /> <!-- Enchanted Angel Wings Scholar -->
+    <item id="10054" price="0" /> <!-- Enchanted Angel Wings Troll -->
+    <item id="10055" price="0" /> <!-- Enchanted Angel Wings Nymph -->
+    <item id="10056" price="0" /> <!-- Enchanted Angel Wings Snipe -->
+    <item id="10057" price="0" /> <!-- Enchanted Angel Wings Ghost -->
+    <item id="10058" price="0" /> <!-- Enchanted Angel Wings witch -->
 
 </list>

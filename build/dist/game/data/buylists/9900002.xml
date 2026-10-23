@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
     <item id="9940" price="0" /> <!-- Titanium Helmet	Heavy -->
     <item id="9941" price="0" /> <!-- Titanium Breastplate	Heavy -->
     <item id="9942" price="0" /> <!-- Titanium Gauntlet	Heavy -->
     <item id="9943" price="0" /> <!-- Titanium Boots	Heavy -->
-    <item id="9944" price="0" /> <!-- Titanium Leather Helmet	Light -->
-    <item id="9945" price="0" /> <!-- Titanium Leather Breastplate	Light -->
-    <item id="9946" price="0" /> <!-- Titanium Leather Gloves	Light -->
-    <item id="9947" price="0" /> <!-- Titanium Leather Boots	Light -->
-    <item id="9948" price="0" /> <!-- Titanium Circlet	Robe -->
-    <item id="9949" price="0" /> <!-- Titanium Tunic	Robe -->
-    <item id="9950" price="0" /> <!-- Titanium Gloves	Robe -->
-    <item id="9951" price="0" /> <!-- Titanium Shoes	Robe -->
 </list>    

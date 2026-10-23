@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../xsd/buylist.xsd">
+    <npcs>
+        <npc>40010</npc> <!-- Zaken -->
+    </npcs>
+    <item id="9944" price="0" /> <!-- Titanium Leather Helmet	Light -->
+    <item id="9945" price="0" /> <!-- Titanium Leather Breastplate	Light -->
+    <item id="9946" price="0" /> <!-- Titanium Leather Gloves	Light -->
+    <item id="9947" price="0" /> <!-- Titanium Leather Boots	Light -->
+</list>    
